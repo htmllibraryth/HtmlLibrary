@@ -14,9 +14,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="CodeEditor.js"></script>
         <script src="https://kit.fontawesome.com/b873803313.js" crossorigin="anonymous"></script>
-        <title>ทดสอบเขียนโค้ด | เอชทีเอ็มแอลไลบรารี่</title>
+        <title>หน้าแรก | เอชทีเอ็มแอลไลบรารี่</title>
         <style>
             *{
                 margin: 0;
@@ -38,14 +37,6 @@
   
             ::-webkit-scrollbar-thumb:hover{
                 background: #1BB2B6ab;}
-            
-            #code {
-                min-height: 900px;}
-
-            #output {
-                min-height: 900px;
-                background: #fff;
-                color: #222;}
         </style>
     </head>
     <body>
@@ -96,14 +87,14 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Exercise.html"><i class="fa-solid fa-book-open"></i> แบบทดสอบ</a>
+                            <a class="nav-link" href="Exercise.html" style="
+                            color : #1BB2B6;">
+                                <i class="fa-solid fa-book-open"></i> 
+                                 แบบทดสอบ
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="CodeEditor.html" style="
-                            color : #1BB2B6;">
-                                <i class="fa-solid fa-code"></i> 
-                                 ทดสอบเขียนโค้ด
-                            </a>
+                            <a class="nav-link" href="CodeEditor.html"><i class="fa-solid fa-code"></i> ทดสอบเขียนโค้ด</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Contact.html"><i class="fa-solid fa-envelope"></i> ติดต่อเรา</a>
@@ -112,63 +103,7 @@
                 </div>
             </div>
         </navbar>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <main class="container-fluid pt-5 bg-dark text-white" style="
-        background-color: #151616;">
-            <div class="container">
-                <p class="display-6 mt-3 d-md-flex justify-content-md-center" style="
-                font-family: kanit;
-                font-weight: bold;">
-                    <i class="fa-solid fa-code"></i> &nbsp;ทดสอบ
-                    <span style="
-                    color: #00b4d8;">
-                        เขียนโค้ด
-                    </span>
-                </p>
-            </div>
-            <div class="container pb-5 d-grid gap-2 d-md-flex justify-content-md-center">
-                <a class="btn btn-outline-success me-ms-2" id="btn" type="button">
-                    <b style="
-                    font-family: sarabun;">
-                        รันโค้ด                    
-                    </b>
-                </a>
-                <a class="btn btn-info me-ms-2" href="https://www.editplus.com/ftp/epp560_4250_64bit.exe" type="button">
-                    <b style="
-                    font-family: sarabun;">
-                        โปรแกรม EditPlus
-                    </b>
-                </a>
-                <a class="btn btn-info me-ms-2" href="https://creativecloud.adobe.com/apps/download/dreamweaver" type="button">
-                    <b style="
-                    font-family: sarabun;">
-                        โปรแกรม Dreamweaver
-                    </b>
-                </a>
-            </div>
-        </main>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <main class="container-fluid p-0" style="
-        background-color: #383838;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-12 pt-2 pb-3" id="htmPane">
-                        <div class="inner jumbotron" id="code"></div>
-                    </div>
-                    <div class="col-lg-6 col-12 pt-2 pb-3">
-                        <div id="output"></div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <div class="container-fluid bg-dark p-3"></div>
+        
         <footer class="text-center text-lg-start text-muted " style="
         background-color:#222222;">
             <div class="container-fluid p-2">
@@ -193,7 +128,7 @@
                             <a href="index.html#lesson" class="text-reset">บทเรียน</a>
                         </p>
                         <p>
-                            <a href="Exercise.html" class="text-reset">แบบทดสอบ</a>
+                            <a href="CodeEditor.html" class="text-reset">ทดสอบเขียนโค้ด</a>
                         </p>
                         <p>
                             <a href="Contact.html" class="text-reset">ติดต่อเรา</a>
@@ -214,8 +149,5 @@
                 <a class="text-reset fw-bold" href="index.html">HtmlLibrary.com</a>
             </div>
         </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
-        <script src="CodeEditor.js"></script>
     </body>
 </html>

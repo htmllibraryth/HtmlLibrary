@@ -15,7 +15,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://kit.fontawesome.com/b873803313.js" crossorigin="anonymous"></script>
-        <title>หน้าแรก | เอชทีเอ็มแอลไลบรารี่</title>
+        <title>บทเรียน | เอชทีเอ็มแอลไลบรารี่</title>
         <style>
             *{
                 margin: 0;
@@ -101,14 +101,14 @@
                 font-family: sarabun;">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html" style="
-                            color : #1BB2B6;">
-                                <i class="fa-solid fa-house"></i> 
-                                 หน้าแรก
-                            </a>
+                            <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> หน้าแรก</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="index.html#lesson" role="button" data-bs-toggle="dropdown"><i class="fa-solid fa-book"></i> บทเรียน</a>
+                            <a class="nav-link dropdown-toggle" href="index.html#lesson" role="button" data-bs-toggle="dropdown" style="
+                            color : #1BB2B6;">
+                                <i class="fa-solid fa-book"></i> 
+                                 บทเรียน
+                            </a>
                             <ul class="dropdown-menu dropdown-menu-dark" style="
                             background-color: #222222;
                             border: none;">
@@ -135,182 +135,185 @@
                 </div>
             </div>
         </navbar>
-        <header class="container-fluid" style="
-        position: relative; 
-        height : 700px; 
-        padding: 0;">
-            <div class="container-fluid" style="
-            position: absolute;
-            top: 270px;">
-                <p class="display-5 text-center" style="
-                margin: 0; 
-                width: 100%;
-                color: #00b4d8;
-                font-family: kanit;
-                font-weight:700;
-                user-select: none;">
-                    ยินดีตอนรับ
-                </p>
-                <p class="display-1 text-center" style="
-                margin: 0; 
-                width: 100%;
-                color: #ffffff;
-                font-family: kanit;
-                font-weight: bold;
-                user-select: none;">
-                    เข้าสู่เว็บไซต์เอชทีเอ็มแอลไลบรารี่
-                </p>
-            </div>
-            <div class="container-fluid d-flex justify-content-center" style="
-            position: absolute;
-            top: 490px;">
-                <a type="button" class="btn btn-info text-white btn-lg me-2 ms-2" href="#lesson">
-                    <b style="
-                    font-family: sarabun;">
-                         ดูบทเรียน
-                    </b>
-                </a>
-                <a type="button" class="btn btn-outline-light btn-lg me-2 ms-2" href="#more">
-                    <b style="
-                    font-family: sarabun;">
-                     ดูเพิ่มเติม
-                    </b>
-                </a>
-            </div>                    
-            <div class="container-fluid" style="
-            height : 700px; 
-            padding: 0; 
-            position: absolute; 
-            background-color: #000000ce;
-            z-index: -98;
-            background-attachment: fixed;">
-            </div>
-            <video loop muted autoplay style="
-            width: 100%; 
-            height: 700px; 
-            position: absolute; 
-            object-fit: cover; 
-            z-index: -99;">
-                <source src="Video/Home-header-videobg.mp4">
-            </video>
-        </header>
-        <div class="container-fluid p-3" id="more" style="
+            <source src="Video/Lession-header-videobg.mp4">
+        </video>
+        <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-        <main class="container-fluid bg-white p-5">
-            <article class="container bg-white">
-                <p class="display-6 mt-3" style="
-                font-family: kanit;
-                font-weight: bold;">
-                    <i class="fa-sharp fa-solid fa-circle-info"></i>&nbsp;เว็บไซต์เอชทีเอ็มแอลไลบรารี่
-                    <span style="
-                    color: #00b4d8;">
-                        คืออะไร?
-                    </span>
-                </p>
-                <p class="lead text-dark text-center" style="
-                font-family: sarabun">
-                    เว็บไซต์เอชทีเอ็มแอลไลบรารี่ คือเว็บไซต์เพื่อการสอนภาษา HTML เป็นสื่อการสอนที่นำเสนอความรู้ และเนื้อหา
-                    โดยประกอบการเรียนในรายวิชา การเขียนเว็บไซต์ด้วยภาษา HTML โดยมีวัตถุประสงค์ให้นักเรียนและผู้สนใจทั่วไป
-                    ได้ศึกษาหาความรู้ผ่านระบบเครือข่ายและเพื่อใช้ในการจัดการเรียนการสอนทำให้เกิดความสะดวกและรวดเร็วในการ
-                    ค้นหาความรู้ ศึกษาบทเรียนและทบทวนเนื้อหาความรู้ได้ตลอดเวลา
-                </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a class="btn btn-dark me-ms-2" href="#lesson" type="button">
-                        <b style="
-                        font-family: sarabun;">
-                            <abbr title="ไปหน้าบทเรียนของเว็บไซต์เอชทีเอ็มแอลไลบรารี่">เข้าสู่บทเรียนของเว็บไซต์</abbr>
-                        </b>
-                    </a>
-                </div>
-            </article>                                                           
-        </main>
-        <main class="container-fluid bg-dark p-5">
-            <article class="container bg-dark">
-                <p class="display-6 mt-3 text-white d-flex justify-content-center" style="
-                font-family: kanit;
-                font-weight: bold;">
-                    <i class="fa-sharp fa-solid fa-circle-info"></i>&nbsp;HTML
-                    <span style="
-                        color: #00b4d8;">&nbsp;คืออะไร?
-                    </span>
-                </p>
-                <p class="lead text-white text-center" style="
-                font-family: sarabun">
-                    HTML ย่อมาจาก Hyper Text Markup Language คือภาษาคอมพิวเตอร์ที่ใช้ในการแสดงผลของเอกสารบน website 
-                    หรือที่เราเรียกกันว่าเว็บเพจ ถูกพัฒนาและกำหนดมาตรฐานโดยองค์กร World Wide Web Consortium (W3C) 
-                    และจากการพัฒนาทางด้าน Software ของ Microsoft ทำให้ภาษา HTML เป็นอีกภาษาหนึ่งที่ใช้เขียนโปรแกรมได้ 
-                    หรือที่เรียกว่า HTML Application  HTML เป็นภาษาประเภท Markup   สำหรับการการสร้างเว็บเพจ 
-                    โดยใช้ภาษา HTML สามารถทำโดยใช้โปรแกรม Text Editor ต่างๆ เช่น Notepad, Editplus หรือจะอาศัย
-                    โปรแกรมที่เป็นเครื่องมือช่วยสร้างเว็บเพจ เช่น Microsoft FrontPage, Dream Weaver 
-                    ซึ่งอํานวยความสะดวกในการสร้างหน้า HTML ส่วนการเรียกใช้งานหรือทดสอบการทำงานของเอกสาร HTML จะใช้โปรแกรม 
-                    web browser เช่น IE Microsoft Internet Explorer  (IE), Mozilla Firefox, Safari, Opera, และ Netscape Navigator เป็นต้น
-                </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-center pt-2">
-                    <video src="./Video/Home-WhatisHTML.mp4" width="400px" controls></iframe> 
-                </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-center pt-2">
-                    <a class="text-white" href="https://www.youtube.com/c/BorntodevTH/featured" target="borntodev" style="
+        <main class="container-fluid bg-dark p-1">
+            <div class="container p-5">
+                <h1 class="text-white pt-5" style="
+                font-family: sarabun;
+                user-select: none;">
+                    <b style="
+                    color:#00b4d8;">บทเรียนที่ 1</b> เอชทีเอ็มแอลเบื้องต้น
+                </h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="
                     font-family: sarabun;
-                    text-decoration: none;">
-                        <img src="./Picture/youtube-icon.png" width="50px"><strong>you<span style="color: #d4101d;">tube</span> : </strong>BorntoDev
-                    </a>
-                </div>
-            </article>                                                           
+                    user-select: none;">
+                        <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
+                        text-decoration: none;">หน้าแรก</a></li>
+                        <li class="breadcrumb-item active" aria-current="page" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 1</strong> เอชทีเอ็มแอลเบื้องต้น</li>
+                        <li class="breadcrumb-item"><a class="link-info" href="#" style="
+                        text-decoration: none;">การสร้างและบันทึกเอกสาร</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="#" style="
+                        text-decoration: none;">การแสดงไฟล์เอกสารและการเปิดดู CODE ภาษา HTML</a></li>
+                    </ol>
+                  </nav>
+                  <div class="container-fluid text-white pt-3">
+                    <div class="container p-2"  style="
+                    font-family: sarabun;">
+                        <h4 class="text-white">
+                            <b>จุดประสงค์การเรียนรู้</b>
+                        </h4>
+                        <font class="text-white">
+                            1. สามารถอธิบายโครงสร้างและคำสั่งหลักของภาษา HTML ได้<br>
+                            2. อธิบายและใช้คำสั่งเบื้องต้นในการเขียนโปรแกรมภาษา HTML ได้<br>
+                            3. สามารถสร้างเว็บเพจด้วยภาษา HTML<br>
+                            4. สามารถแสดงผลลัพธ์บนเว็บบราวเซอร์ได้อย่างถูกต้อง<br>
+                            5. สามารถใช้โปรแกรม Notepad ในการพิมพ์ไฟล์เอกสาร HTML ได้<br>
+                        </font>
+                    </div>
+            </div>
         </main>
-        <main class="container-fluid bg-white p-5">
-            <article class="container bg-white">
-                <p class="display-6 mt-3 d-md-flex justify-content-end" style="
-                font-family: kanit;
-                font-weight: bold;">
-                    <i class="fa-sharp fa-solid fa-circle-info"></i>&nbsp;โปรแกรม Editor&nbsp;
-                    <span style="
-                    color: #00b4d8;">
-                        คืออะไร?
-                    </span>
+        <div class="container-fluid p-3" style="
+        background-color:#222222;">
+        </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>ภาษา HTML</b>
+                </h4>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML หรือ HyperText Markup Language เป็นภาษาคอมพิวเตอร์รูปแบบหนึ่ง ที่มีลักษณะเป็นภาษาในเชิงการบรรยายเอกสารไฮเปอร์มีเดีย
+                    (Hypermedia Document Description Language) เพื่อนำเสนอเอกสารนั้น เผยแพร่ในระบบเครือข่ายใยแมงมุม WWW (World Wide Web) มีโครงสร้างการเขียน ที่อาศัยตัวกำกับ เรียกว่า แท็ก (Tag) ควบคุมการแสดงผลของข้อความ, รูปภาพ หรือวัตถุอื่นๆ ผ่านโปรแกรมบราวเซอร์ (Browser)
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2" style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>แท็ก</b>
+                </h4>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แท็ก เป็นลักษณะเฉพาะของภาษา HTML ใช้ในการระบุรูปแบบคำสั่ง หรือการลงรหัสคำสั่ง HTML ภายในเครื่องหมายน้อยกว่า (<code>&lt;</code>) และมากกว่า(<code>&gt;</code>) โดยที่แท็ก HTML แบ่งได้ 2 ลักษณะคือ<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- แท็กเดี่ยว เป็นแท็กที่ไม่ต้องมีการปิดรหัส เช่น <code>&lt;P&gt; , &lt;HR&gt;</code> เป็นต้น<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- แท็กเปิด/ปิด เป็นแท็กที่ประกอบด้วย แท็กเปิด และ แท็กปิด โดยแท็กปิด จะมีเครื่องหมายสแลช (<code>/</code>) นำหน้าคำสั่งในแท็กนั้นๆ เช่น <code>&lt;B&gt;…&lt;/B&gt; , &lt;P&gt;…&lt;/P&gt;</code> เป็นต้น
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>คุณลักษณะ</b>
+                </h4>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นส่วนขยายความสามารถของแท็กจะต้องใส่ภายในเครื่องหมาย <code>&lt; &gt;</code> ในส่วนแท็กเปิดเท่านั้นแท็กคำสั่ง HTML แต่ละคำสั่ง จะมีคุณลักษณะ แตกต่างกันไป และมีจำนวนไม่เท่ากัน การระบุคุณลักษณะ มากกว่า 1 คุณลักษณะ ให้ใช้ช่องว่างเป็นตัวคั่น เช่น แท็ก ควบคุมเกี่ยวกับรูปภาพ <code>&lt;IMG&gt;</code> มี Attributes ดังนี้<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;IMG SRC="ชื่อไฟล์.นามสกุล" WIDTH="n" HEIGHT="n" ALT="text" BORDER="n"&gt;</code><br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>SRC</code> เป็นคุณลักษณะควบคุมชื่อไฟล์ภาพที่จะนำมาแสดงผล<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>WIDTH</code> เป็นคุณลักษณะควบคุมความกว้างของภาพ<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>HEIGHT</code> เป็นคุณลักษณะควบคุมความสูงของภาพ<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>ALT</code> เป็นคุณลักษณะควบคุมคำอธิบายภาพ<br>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>BORDER</code> เป็นคุณลักษณะควบคุมขนาดของเส้นขอบของภาพ<br>
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <p class="text-dark"> 
+                    ไฟล์เอกสาร HTML เป็นไฟล์ข้อความรูปแบบหนึ่ง (Text File) ที่เก็บชุดคำสั่ง HTML ดังนั้นการสร้างเอกสาร HTML จึงสามารถใช้ Text Editor ตัวใดก็ได้ เช่น NotePad Editplus หรือ Dreamweaver
                 </p>
-                <p class="lead text-dark text-center" style="
-                font-family: sarabun">
-                    Text Editor (เท็กซ์อิดิเตอร์) คือ โปรแกรมที่ใช้สำหรับสร้างและแก้ไขข้อความในการสร้างเว็บเพจด้วยภาษา HTML นั้นต้องมีเครื่องมือที่ใช้ในการเขียน 
-                    และแก้ไขตัวอักษรซึ่งเป็นคำสั่งต่าง ๆปัจจุบันมี โปรแกรม Text Editor หลายโปรแกรม เช่น NotePad, EditPlus หรือโปรแกรม Dreamweaver 
-                    ซึ่งมีคุณสมบัติเป็นทั้งโปรแกรมสำเร็จรูปในการสร้างเว็บเพจด้วย ในบทเรียนชุดนี้ จะใช้โปรแกรม Notepad ในการสร้างเว็บเพจด้วยภาษา HTML
-                </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <a class="btn btn-dark me-ms-2" href="https://www.editplus.com/ftp/epp560_4250_64bit.exe" type="button">
-                        <b style="
-                        font-family: sarabun;">
-                            <abbr title="โหลดโปรแกรม Editplus">โปรแกรม EditPlus</abbr>
-                        </b>
-                    </a>
-                    <a class="btn btn-dark me-ms-2" href="https://creativecloud.adobe.com/apps/download/dreamweaver" type="button">
-                        <b style="
-                        font-family: sarabun;">
-                            <abbr title="โหลดโปรแกรม Dreamweaver">โปรแกรม Dreamweaver</abbr>
-                        </b>
-                    </a>
-                </div>
-            </article>                                                           
-        </main>
-        <div class="container-fluid p-3" id="lesson" style="
+                <font>
+                    <h4 class="text-dark">
+                        <b>เริ่มด้วยการเปิดโปรแกรม Notepad</b>
+                    </h4>
+                </font>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แต่ละข้อความที่พิมพ์มานี้เราเรียกมันว่าแท็กซึ่งแท็กแรกเป็นแท็กที่ใช้บอกว่าเป็นการเริ่มต้นเอกสาร และต่อมาก็คือแท็กที่ใช้บอกจุดสิ้นสุด การกำหนดว่าแท็กใดเป็นแท็กสิ้นสุด สามารถทำได้โดยการใส่เครื่องหมาย "<code>/</code>" ไว้ที่หน้าแท็กเป็นส่วนใหญ่ , แต่ก็ไม่ได้หมายความว่าทุกแท็ก จำเป็นจะต้องมีแท็กปิดเสมอไป
+                    เมื่อเรานึกถึง "แท็ก" ก็เหมือนกับว่า เราได้พูดคุยกับ โปรแกรมเบราส์เซอร์ หรือไม่ก็เป็นการบอกรายละเอียดให้กับมัน แล้วอะไรละที่จะบอกสิ่งแรกก็คือ "นี่คือการเริ่มต้นเอกสาร <code>&lt;HTML&gt;</code> และสิ่งต่อมาก็คือ "นี่คือการสิ้นสุดเอกสาร" <code>&lt;/HTML&gt;</code> เมื่อมาถึงตรง นี้แล้ว สิ่งที่จะต้องทำต่อไปก็คือเริ่มใส่แท็กอื่น ๆ เข้าไปอีก
+                    ในเอกสาร HTML โดยทั่วไปมักจะต้องมีแท็ก HEAD เพื่อกำหนดรายละเอียดในส่วนหัวของเอกสาร
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;และรายละเอียดแรกที่เราจะใส่ไว้ในส่วนหัวของเอกสาร (อยู่ระหว่างแท็ก HEAD) ก็คือ แท็กไตเติ้ล TITLE ซึ่งก็คือชื่อเรื่องนั่นเอง
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;และต่อมาก็คือแท็ก BODY ซึ่งเป็นแท็กที่สำคัญอย่างยิ่ง เพราะต่อไปรายละเอียดต่างๆ ใน เอกสารของเราจะถูกใส่ไว้ภายในแท็กนี้
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อีกสิ่งหนึ่งที่เราจะทำกันก็คือ , ใส่ชื่อหรือไตเติ้ลให้กับเอกสาร
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บันทึก ข้อมูลที่พิมพ์มาทั้งหมดโดยเลือก File / Save as แล้วตั้งชื่อเป็น example1.html<br>
+                </font>
+                <font class="text-dark"></font>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ก่อนที่จะข้ามไปเรียนรู้ในบทต่อไป มีสิ่งจำเป็น 2 ประการที่จะต้องเตรียมก็คือ ประการที่ 1 จะต้องเตรียมข้อมูล พอคร่าว ๆ ว่าเว็บเพจของเราควรจะมีหน้าตาเป็นอย่างไร และประการที่ 2 คือต้องจำองค์ประกอบพื้นฐานของ เอกสาร HTML ในบทนี้ให้ดี
+                </font>
+                <hr>
+            </div>
+            <div class="container d-flex justify-content-center p-5">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination" style="
+                    font-family: sarabun;">
+                      <li class="page-item disabled"><a class="page-link" href="#">ย้อนกลับ</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="#">ไปต่อ</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+        <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
         <main class="container-fluid bg-dark p-5">
-            <article class="container">
-                <p class="display-6 mt-3 text-white d-flex justify-content-center" style="
-                font-family: kanit;
-                font-weight: bold;"><i class="fa-solid fa-book"></i>&nbsp;
-                    <span style="
-                    color: #00b4d8;">
-                        บทเรียน
-                    </span>
-                    ของเว็บไซต์
-                </p>
-            </article>
             <div class="container-fluid">
                 <div class="container d-flex justify-content-center">
                     <div class="row pt-2 d-flex justify-content-center">
                         <div class="col pt-3 d-flex justify-content-center">
-                            <div class="card d-flex justify-content-center" id="card-1" style="width: 18rem;">
+                            <div class="card d-flex justify-content-center disabled" id="card-1" style="width: 18rem;">
                                 <img class="card-img-top" src="Picture/Home-lession-1.png" alt="Card image cap">
                                 <div class="card-body bg-white text-dark">
                                     <h5 class="card-title text-center" style="
@@ -492,146 +495,7 @@
         <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-        <main class="container-fluid bg-white p-5">
-            <article class="container">
-                <p class="display-6 mt-3 text-dark d-flex justify-content-center" style="
-                font-family: kanit;
-                font-weight: bold;"><i class="fa-solid fa-thumbs-up"></i>&nbsp;
-                    <span style="
-                    color: #00b4d8;">
-                        ทำไมต้อง
-                    </span>
-                    บทเรียนเรา?
-                </p>
-            </article>
-            <div class="container d-flex justify-content-center pt-2">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-indicators" style="
-                    background-color: #222222;
-                    margin: 0;"> 
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./Picture/HTMLlibrary.PNG" class="d-block w-100" alt="HtmlLibrary">
-                        <div class="carousel-captin d-none d-md-block">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./Picture/HTMLlibrary.PNG" class="d-block w-100" alt="HtmlLibrary">
-                        <div class="carousel-caption d-none d-md-block">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./Picture/HTMLlibrary.PNG" class="d-block w-100" alt="HtmlLibrary">
-                        <div class="carousel-caption d-none d-md-block">
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-            <div class="container">
-                
-            </div>
-        </main>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <main class="container-fluid bg-dark p-5">
-            <article class="container text-white d-flex justify-content-center">
-                <p class="display-6 mt-3" style="
-                font-family: kanit;
-                font-weight: bold;">
-                    <i class="fa-solid fa-magnifying-glass"></i>&nbsp;เว็บไซต์
-                    <span style="
-                    color: #00b4d8;">
-                        เพิ่มเติม
-                    </span>
-                </p>
-            </article>
-            <div class="container pt-2">
-                <p class="lead text-white text-center" style="
-                font-family: sarabun">
-                    เว็บไซต์เอชทีเอ็มแอลไลบรารี่ เป็นเว็บไซต์ที่ส่งเสริมการสอนภาษา HTML เพื่อไว้พัฒนาเว็บไซต์ขั้นพื้นฐาน ทดสอบเขียนโค้ด
-                    และทำแบบทดสอบผ่านเว็บไซต์ของเรา ถ้าหากผู้ที่เข้าเรียนบทเรียนของเว็บไซต์เรายังสนใจและต้องการศึกษาเพิ่มเติม 
-                    หรือสนใจเรียนแบบขั้นสูง ต้องการเรียนโค้ดภาษา HTML และ CSS ที่ลึกกว่าเดิม เราก็มีเว็บไซต์แนะนำที่สามารถพัฒนาคุณต่อไปได้
-                    เว็บไซต์เหล่านี้สามารถศึกษาได้หลายรูปแบบทั้งเสียตังค์ทั้งเป็นบทเรียนที่ฟรี
-                </p>
-            </div>
-            <div class="container pt-2">
-                <div class="accordion" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            เว็บไซต์ W3School (เว็บไซต์บทเรียนฟรี)
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                            <strong>w3school หรือ www.w3schools.com </strong>มาพร้อมกับสโลแกน THE WORLD'S LARGEST WEB DEVELOPER SITE แค่สโลแกนก็บอกแล้วว่าทำมาเพื่อใคร เพราะมันได้รวบรวมเอาความรู้ที่จำเป็นต่อการสร้างเว็บไซต์มาไว้ที่นี่เกือบทั้งหมดแล้ว โดย w3school ได้แบ่งหมวดหมู่เนื้อหาไว้อย่างชัดเจนนั่นคือส่วนหน้าตาเว็บไซต์ ตรงนี้จะเกี่ยวข้องกับภาษา HTML CSS และjavascript และอีกส่วนที่ทำงานอยู่เบื้องหลังเว็บไซต์ ซึ่งจะเกี่ยวข้องกับ SQL PHP Node.js เป็นต้น
-                            <a class="btn btn-info btn-sm" href="https://www.w3schools.com" type="button">
-                                <b style="
-                                font-family: sarabun;">
-                                    เข้าสู่เว็บไซต์ W3School
-                                </b>
-                            </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            เว็บไซต์ BornToDev (เว็บไซต์คอร์สเรียน)
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <strong>BorntoDev</strong> ระบบฝึกทักษะ เขียนโปรแกรมที่พร้อมตรวจผลงานคุณ 24 ชั่วโมง หมดปัญหาเรียนโปรแกรมมิ่งแล้วไม่เข้าใจ เพราะเรามีโจทย์เป็นร้อยข้อ ให้ทำฟรี แถมครบ 20 ข้อรับ Certificate ไปเลยทันที ! เข้าใช้งานระบบรายละเอียด
-                            <a class="btn btn-info btn-sm" href="https://www.borntodev.com/fundamental-web-dev-with-html5-css3/" type="button">
-                                <b style="
-                                    font-family: sarabun;">
-                                    เข้าสู่เว็บไซต์ BorntoDev
-                                </b>
-                            </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            เว็บไซต์ ODEPEN.IO (เว็บไซต์ทดสอบโค้ด)
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <strong>ODEPEN.IO</strong> สอนการทำส่วนต่างๆของเว็บไซต์ เช่น หน้า gallery, หน้า loading เมื่อกำลังรอดาวน์โหลดจุดเด่นของเว็บนี้คือ แยกเป็น 4 หน้าจอ คือ โค้ด HTML, CSS, JS และหน้าจอแสดงผล ให้เราเห็นการแสดงผลได้อย่างชัดเจน
-                            <a class="btn btn-info btn-sm" href="https://codepen.io" type="button">
-                                <b style="
-                                    font-family: sarabun;">
-                                    เข้าสู่เว็บไซต์ Odepen.io
-                                </b>
-                            </a> 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>   
-        </main>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <div class="container-fluid bg-white p-4"></div>
-        </div>
+        <div class="container-fluid bg-white p-5"></div>
         <footer class="text-center text-lg-start text-muted " style="
         background-color:#222222;">
             <div class="container-fluid p-2">
@@ -650,7 +514,7 @@
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">ลิงค์ทางลัด</h6>
                         <p>
-                            <a href="index.html#lesson" class="text-reset">บทเรียน</a>
+                            <a href="index.html" class="text-reset">หน้าแรก</a>
                         </p>
                         <p>
                             <a href="Exercise.html" class="text-reset">แบบทดสอบ</a>
