@@ -14,8 +14,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="CodeEditor.js"></script>
         <script src="https://kit.fontawesome.com/b873803313.js" crossorigin="anonymous"></script>
-        <title>หน้าแรก | เอชทีเอ็มแอลไลบรารี่</title>
+        <title>ทดสอบเขียนโค้ด | เอชทีเอ็มแอลไลบรารี่</title>
         <style>
             *{
                 margin: 0;
@@ -37,6 +38,14 @@
   
             ::-webkit-scrollbar-thumb:hover{
                 background: #1BB2B6ab;}
+            
+            #code {
+                min-height: 900px;}
+
+            #output {
+                min-height: 900px;
+                background: #fff;
+                color: #222;}
         </style>
     </head>
     <body>
@@ -90,14 +99,14 @@
                             <a class="nav-link" href="Exercise.html"><i class="fa-solid fa-book-open"></i> แบบทดสอบ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="CodeEditor.html"><i class="fa-solid fa-code"></i> ทดสอบเขียนโค้ด</a>
+                            <a class="nav-link" href="CodeEditor.html" style="
+                            color : #1BB2B6;">
+                                <i class="fa-solid fa-code"></i> 
+                                 ทดสอบเขียนโค้ด
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Contact.html" style="
-                            color : #1BB2B6;">
-                                <i class="fa-solid fa-envelope"></i> 
-                                 ติดต่อเรา
-                            </a>
+                            <a class="nav-link" href="Contact.html"><i class="fa-solid fa-envelope"></i> ติดต่อเรา</a>
                         </li>
                     </ul>
                 </div>
@@ -106,84 +115,59 @@
         <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-        <main class="container-fluid p-3 bg-dark text-white" style="
+        <main class="container-fluid pt-5 bg-dark text-white" style="
         background-color: #151616;">
             <div class="container">
-                <p class="display-6 mt-3 pt-5 d-flex justify-content-md-center" style="
+                <p class="display-6 mt-3 d-md-flex justify-content-md-center" style="
                 font-family: kanit;
                 font-weight: bold;">
-                    <i class="fa-solid fa-envelope"></i> &nbsp;ติดต่อ
+                    <i class="fa-solid fa-code"></i> &nbsp;ทดสอบ
                     <span style="
                     color: #00b4d8;">
-                        เรา
+                        เขียนโค้ด
                     </span>
                 </p>
-                <p class="text-center pb-3 text-white" style="
-                font-family: sarabun;
-                font-weight: bold;">ข้อความคุณถูกจะส่งไปอีเมล 
-                    <a class="link-info" href="mailto: htmllibraryth@gmail.com" target="_blank">
-                        htmllibraryth@gmail.com
-                    </a>
-                </p>
+            </div>
+            <div class="container pb-5 d-grid gap-2 d-md-flex justify-content-md-center">
+                <a class="btn btn-outline-success me-ms-2" id="btn" type="button">
+                    <b style="
+                    font-family: sarabun;">
+                        รันโค้ด                    
+                    </b>
+                </a>
+                <a class="btn btn-info me-ms-2" href="https://www.editplus.com/ftp/epp560_4250_64bit.exe" type="button">
+                    <b style="
+                    font-family: sarabun;">
+                        โปรแกรม EditPlus
+                    </b>
+                </a>
+                <a class="btn btn-info me-ms-2" href="https://creativecloud.adobe.com/apps/download/dreamweaver" type="button">
+                    <b style="
+                    font-family: sarabun;">
+                        โปรแกรม Dreamweaver
+                    </b>
+                </a>
             </div>
         </main>
         <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-        <main class="container-fluid p-5" style="
+        <main class="container-fluid p-0" style="
         background-color: #383838;">
-            <div class="container bg-dark text-white p-5 py-4">
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                  <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label" for="name">ชื่อ-นามสกุล&nbsp;</label><span style="color: red;">*</span>
-                    <input class="form-control" id="name" type="text" placeholder="ใส่ชื่อ-นามสกุล" data-sb-validations="required" />
-                    <div class="invalid-feedback" data-sb-feedback="name:required">กรุณาใส่ชื่อ</div>
-                  </div>
-                  <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label text-white" for="subject">เรื่อง </label>
-                        <select class="form-select" aria-label="Default select example" id="subject" name="subject">
-                            <option selected>ไม่มีหัวข้อ</option>
-                            <option value="problem">1. ปัญหาเกี่ยวกับการใช้งานเว็บไซต์</option>
-                            <option value="contact">2. ติดต่อสอบถาม</option>
-                            <option value="etc">3. อื่นๆ</option>
-                        </select>
-                </div>
-                <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label" for="emailAddress">อีเมล</label><span style="color: red;">*</span>
-                    <input class="form-control" id="emailAddress" type="email" placeholder="ใส่อีเมล" data-sb-validations="required, email" />
-                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">กรุณาใส่อีเมล</div>
-                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">ที่อยู่อีเมลไม่ถูกต้อง</div>
-                </div>
-                <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label" for="message">ข้อความ</label><span style="color: red;">*</span>
-                    <textarea class="form-control" id="message" type="text" placeholder="ใส่ข้อความ" style="height: 10rem;" data-sb-validations="required"></textarea>
-                    <div class="invalid-feedback" data-sb-feedback="message:required">กรุณาใส่ข้อความ</div>
-                </div>
-                <div class="d-none" id="submitSuccessMessage" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <div class="text-center mb-3">ส่งข้อความสำเร็จ&nbsp;!</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 pt-2 pb-3" id="htmPane">
+                        <div class="inner jumbotron" id="code">&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+&lt;/html&gt;</div>
                     </div>
-                  <div class="d-none" id="submitErrorMessage" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <div class="text-center text-danger mb-3">มีข้อผิดพลาดไม่สามารถส่งข้อความ&nbsp;!</div>
-                  </div>
-                  <div class="d-grid d-flex justify-content-md-end" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <button class="btn btn-info btn-lg disabled " id="submitButton" type="submit">ส่งข้อความ</button>
-                  </div>
-                </form>   
-              </div>            
+                    <div class="col-lg-6 col-12 pt-2 pb-3">
+                        <div id="output"></div>
+                    </div>
+                </div>
+            </div>
         </main>
         <div class="container-fluid p-3" style="
         background-color:#222222;">
@@ -216,7 +200,7 @@
                             <a href="Exercise.html" class="text-reset">แบบทดสอบ</a>
                         </p>
                         <p>
-                            <a href="CodeEditor.html" class="text-reset">ทดสอบเขียนโค้ด</a>
+                            <a href="Contact.html" class="text-reset">ติดต่อเรา</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -234,6 +218,8 @@
                 <a class="text-reset fw-bold" href="index.html">HtmlLibrary.com</a>
             </div>
         </footer>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+        <script src="CodeEditor.js"></script>
     </body>
 </html>
