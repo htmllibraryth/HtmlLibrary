@@ -154,18 +154,26 @@
                     user-select: none;">
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
-                        <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 3</strong> การสร้างรายการ</li>
+                        <li class="breadcrumb-item"><a class="link-info" href="lessionThree.html" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 3</strong> การสร้างรายการ></a></li>
                         <li class="breadcrumb-item"><a class="link-info" href="lessionThree-one.html" style="
                         text-decoration: none;">การจัดลำดับหัวข้อและเนื้อหาโดยใช้ &lt;UL&gt;</a></li>
                         <li class="breadcrumb-item"><a class="link-info" href="lessionThree-two.html" style="
                         text-decoration: none;">การจัดลำดับหัวข้อและเนื้อหาโดยใช้ &lt;OL&gt;</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="lessionThree-three.html" style="
+                        <li class="breadcrumb-item active" aria-current="page" style="
                         text-decoration: none;">การจัดลำดับหัวข้อและเนื้อหาโดยใช้ &lt;DL&gt;</a></li>
                     </ol>
                   </nav>
-                  <div class="container-fluid text-white pt-3">
-            </div>
+                  <div class="container p-2"  style="
+                  font-family: sarabun;">
+                      <h4 class="text-white">
+                          <b>จุดประสงค์การเรียนรู้</b>
+                      </h4>
+                      <font class="text-white">
+                          1. อธิบายรูปแบบคำสั่งการจัดลำดับหัวข้อและเนื้อหาโดยใช้ <code>&lt;DL&gt;</code><br>
+                          2. สามารถใช้คำสั่งการจัดลำดับหัวข้อและเนื้อหาโดยใช้ <code>&lt;DL&gt;</code> เพื่อนำมาสร้างหัวข้อลำดับรายการได้<br>
+                      </font>
+                  </div>
         </main>
         <div class="container-fluid p-3" style="
         background-color:#222222;">
@@ -174,21 +182,74 @@
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>การสร้าง List และประเภทของ List </b>
+                    <b>การสร้าง Definition List</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List เป็นการนำเสนอข้อมูลในเอกสารแบบจัดเรียงรายการ โดยวิธีนี้จะทำให้ข้อมูลในเอกสารเป็นหัวข้อ เป็นหมวดหมู่
-                    ทำให้การนำเสนอเอกสารเป็นระเบียบ และกระชับมากขึ้น โดยแบ่งประเภทของ List เป็น 7 แบบ คือ<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Unordered List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Order List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Menu List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Directory List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Definition List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Sub List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. List แบบใช้รูปภาพ<br>
-                    ในบทที่ 3 นี้ จะนำเสนอเพียง 3 รูปแบบคือ Unordered, List Order List และ Definition List
-                    
-                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การสร้าง Definition List  เป็นการจัดรายการที่ใช้สำหรับต้องการแสดงข้อความและคำอธิบายสลับกันไป  เช่น พจนานุกรม โดยจะแบ่งรายการออกเป็นสองส่วน คือ ส่วนที่เป็นหัวข้อและคำอธิบาย<br>
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2" style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>ตัวอย่างโปรแกรม</b>
+                </h4>
+                <div class="container" style="
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-style: solid;
+                border-width: 10px;
+                border-color: #222222;
+                background-color: #222222;">
+                    <div class="container" style="
+                    background-color: #ffffff;">
+                        <font>
+                            <p  style="
+                            color:#000000;
+                            padding: 10px;
+                            margin: 10px;"
+                            >
+                                <code>
+                                    &lt;html&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การจัดลำดับหัวข้อและเนื้อหาโดยใช้ <code>&lt;DL&gt; &lt;/title&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;องค์ประกอบที่สำคัญของคอมพิวเตอร์ มีดังต่อไปนี้&lt;BR&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DL&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DT&gt;</code>INPUT UNIT<code>&lt;/DT&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DD&gt;</code>หน่วยรับข้อมูล ได้แก่ Keyboard, Mouse, Scanner<code>&lt;/DD&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DT&gt;</code>CENTRAL PROCESSING UNIT<code>&lt;/DT&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DD&gt;</code>CPU หรือหน่วยประมวลผลกลาง ถือเป็นส่วนที่สำคัญที่สุด<code>&lt;/DD&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DT&gt;</code>OUTPUT UNIT<code>&lt;/DT&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DD&gt;</code>หน่วยแสดงผล ได้แก่ Monitor, Printer, Plotter<code>&lt;/DD&gt;</code><br>                                    
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/DL&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>                              
+                                    &lt;/html&gt;
+                                </code>
+                            </p>
+                        </font>                        
+                    </div>
+                    <a class="btn btn-info me-ms-2" href="LessionThree-code-3.html" target="_blank" id="btn" type="button">
+                        <b style="
+                        font-family: sarabun;">
+                            แสดงผลลัพธ์                   
+                        </b>
+                    </a>
+                </div>
+                <hr>
+            </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>อธิบายคำสั่ง</b>
+                </h4>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DL&gt;</code> = เริ่มต้นลำดับข้อมูล<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;DT&gt;</code> = คำจำกัดความ<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/DD&gt;</code> = ความหมายหรือคำอธิบาย<br>
                 </font>
                 <hr>
             </div>
@@ -196,11 +257,11 @@
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionThree.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionThree.html">1</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionThree.html">ย้อนกลับ</a></li>
                       <li class="page-item"><a class="page-link text-info" href="LessionThree-one.html">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionThree-two.html">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionThree-two.html">ไปต่อ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="lessionThree-two.html">3</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="lessionThree-three.html">4</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionThree-three.html">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>

@@ -146,7 +146,7 @@
                 font-family: sarabun;
                 user-select: none;">
                     <b style="
-                    color:#00b4d8;">บทเรียนที่ 3</b> การสร้างรายการ
+                    color:#00b4d8;">บทเรียนที่ 4</b> การใส่รูปภาพในเว็บเพจ
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb" style="
@@ -155,16 +155,30 @@
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
                         <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 3</strong> การสร้างรายการ</li>
-                        <li class="breadcrumb-item"><a class="link-info" href="lessionThree-one.html" style="
-                        text-decoration: none;">การจัดลำดับหัวข้อและเนื้อหาโดยใช้ &lt;UL&gt;</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="lessionThree-two.html" style="
-                        text-decoration: none;">การจัดลำดับหัวข้อและเนื้อหาโดยใช้ &lt;OL&gt;</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="lessionThree-three.html" style="
-                        text-decoration: none;">การจัดลำดับหัวข้อและเนื้อหาโดยใช้ &lt;DL&gt;</a></li>
+                        text-decoration: none;"><strong>บทเรียนที่ 4</strong> การใส่รูปภาพในเว็บเพจ</li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionFour-one.html" style="
+                        text-decoration: none;">การใส่รูปภาพประกอบในเว็บเพจ</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionFour-two.html" style="
+                        text-decoration: none;">การกำหนดตำแหน่งของรูปภาพ</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionFour-three.html" style="
+                        text-decoration: none;">การกำหนดระยะห่างของรูปภาพ</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionFour-four.html" style="
+                        text-decoration: none;">การใส่เพลงประกอบในเว็บเพจ</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="lessionFour-five.html" style="
+                        text-decoration: none;">เทคนิคการเลือกชนิดของไฟล์รูปภาพ</a></li>                        
                     </ol>
                   </nav>
                   <div class="container-fluid text-white pt-3">
+                    <div class="container p-2"  style="
+                    font-family: sarabun;">
+                        <h4 class="text-white">
+                            <b>จุดประสงค์การเรียนรู้</b>
+                        </h4>
+                        <font class="text-white">
+                            1. อธิบายรูปแบบคำสั่งการใส่รูปภาพประกอบในเว็บเพจได้<br>
+                            2. สามารถใช้คำสั่งการใส่รูปภาพประกอบในเว็บเพจได้ <br>
+                        </font>
+                    </div>
             </div>
         </main>
         <div class="container-fluid p-3" style="
@@ -173,34 +187,132 @@
             <div class="container p-2"  style="
             font-family: sarabun;">
                 <hr>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ในยุคเริ่มต้นของ Internet นั้นการนำเสนอข้อมูลใน Web Page ของแต่ละ Web Site ล้วนแต่เป็น Text หรือข้อความทั้งนั้น
+                    แต่ในช่วงระยะเวลาอันสั้น การนำเสนอข้อมูลบน Internet ได้พัฒนาไปอย่างรวดเร็ว โดยมีการนำเสนอข้อมูลทั้งที่เป็น ข้อความ รูปภาพ เคลื่อนไหว เสียง หรือแม้กระทั่ง VDO ทั้งนี้เพื่อให้การนำเสนอข้อมูลมีความเสมือนจริง มีความน่าสนใจ
+                    และสื่อความหมาย ให้เข้าใจ กันมากขึ้นนั้นเอง ในบทนี้จะเป็นรายละเอียดเกี่ยวกับ ไฟล์รูปภาพที่นำมาใส่ใน Web Page
+                    ตลอดจนการตกแต่งรูปภาพและเทคนิค การเลือกชนิดของไฟล์รูปภาพที่จะนำมาใช้                    
+                </font>
+                <hr>
+            </div>
+            <div class="container p-2" style="
+            font-family: sarabun;">
+                <hr>
                 <h4 class="text-dark">
-                    <b>การสร้าง List และประเภทของ List </b>
+                    <b>การใส่รูปภาพในเว็บเพจ</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List เป็นการนำเสนอข้อมูลในเอกสารแบบจัดเรียงรายการ โดยวิธีนี้จะทำให้ข้อมูลในเอกสารเป็นหัวข้อ เป็นหมวดหมู่
-                    ทำให้การนำเสนอเอกสารเป็นระเบียบ และกระชับมากขึ้น โดยแบ่งประเภทของ List เป็น 7 แบบ คือ<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Unordered List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Order List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Menu List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Directory List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Definition List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Sub List<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. List แบบใช้รูปภาพ<br>
-                    ในบทที่ 3 นี้ จะนำเสนอเพียง 3 รูปแบบคือ Unordered, List Order List และ Definition List
-                    
-                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ทุกโฮมเพจของทุกเว็บไซต์ ล้วนแต่จะนำรูปภาพมาตกแต่งเพื่อเป็นการดึงดูดความสนใจ สื่อความหมายและเพื่อความสวยงาม   ดังนั้นรูปภาพจึงเป็นองค์ประกอบที่สำคัญในการสร้างเว็บเพจหรือโฮมเพจ<br>
                 </font>
+                <hr>
+            </div>
+            <div class="container p-2" style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>ตัวอย่างโปรแกรม</b>
+                </h4>
+                <font>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; การใส่รูปภาพประกอบในเว็บเพจ โดยการกำหนดความกว้างของภาพ 120 พิกเซล ความสูงของภาพ 120 พิกเซล 
+                </font>
+                <div class="container" style="
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-style: solid;
+                border-width: 10px;
+                border-color: #222222;
+                background-color: #222222;">
+                    <div class="container" style="
+                    background-color: #ffffff;">
+                        <font>
+                            <p  style="
+                            color:#000000;
+                            padding: 10px;
+                            margin: 10px;"
+                            >
+                                <code>
+                                    &lt;html&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การใส่รูปภาพประกอบในเว็บเพจ<code>&lt;/title&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;CENTER&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เว็บไซต์เอชทีเอ็มแอลไลบรารี่<code>&lt;BR&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;IMG SRC="Picture/HTMLlibrary.PNG" BORDER=0 WIDTH=120 HIGHT=120 ALT="นี่เว็บไซต์เอชทีเอ็มแอลไลบรารี่"&gt;</code><code>&lt;/br&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/CENTER&gt;</code><br>                                                                    
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>
+                                    &lt;/html&gt;
+                                </code>
+                            </p>
+                        </font>                        
+                    </div>
+                    <a class="btn btn-info me-ms-2" href="LessionFour-code-1.html" target="_blank" id="btn" type="button">
+                        <b style="
+                        font-family: sarabun;">
+                            แสดงผลลัพธ์                   
+                        </b>
+                    </a>
+                </div>
+                <hr>
+            </div>
+            <div class="container p-2" style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>ตัวอย่างโปรแกรม</b>
+                </h4>
+                <font>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; การใส่กรอบให้รูปภาพ ความหนาของกรอบเท่ากับ 2 และใส่คำอธิบายรูปภาพ
+                </font>
+                <div class="container" style="
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-style: solid;
+                border-width: 10px;
+                border-color: #222222;
+                background-color: #222222;">
+                    <div class="container" style="
+                    background-color: #ffffff;">
+                        <font>
+                            <p  style="
+                            color:#000000;
+                            padding: 10px;
+                            margin: 10px;"
+                            >
+                                <code>
+                                    &lt;html&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การใส่กรอบให้รูปภาพ<code>&lt;/title&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;CENTER&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เว็บไซต์เอชทีเอ็มแอลไลบรารี่<code>&lt;BR&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;IMG SRC="Picture/HTMLlibrary.PNG" BORDER=2 WIDTH=150 HIGHT=134 ALT="นี่เว็บไซต์เอชทีเอ็มแอลไลบรารี่"&gt;</code><code>&lt;/br&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/CENTER&gt;</code><br>                                                                    
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>
+                                    &lt;/html&gt;
+                                </code>
+                            </p>
+                        </font>                        
+                    </div>
+                    <a class="btn btn-info me-ms-2" href="LessionFour-code-2.html" target="_blank" id="btn" type="button">
+                        <b style="
+                        font-family: sarabun;">
+                            แสดงผลลัพธ์                   
+                        </b>
+                    </a>
+                </div>
                 <hr>
             </div>
             <div class="container d-flex justify-content-center p-5">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionThree.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionThree.html">1</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionThree-one.html">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionThree-two.html">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionThree-two.html">ไปต่อ</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="#">ย้อนกลับ</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="#">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>
