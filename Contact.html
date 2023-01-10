@@ -133,7 +133,7 @@
         <main class="container-fluid p-5" style="
         background-color: #383838;">
             <div class="container bg-dark text-white p-5 py-4">
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form onsubmit="sendEmail(); reset(); return flase;" id="contactForm" data-sb-form-api-token="API_TOKEN">
                   <div class="mb-3" style="
                   font-family: sarabun;
                   user-select: none;">
@@ -234,6 +234,22 @@
                 <a class="text-reset fw-bold" href="index.html">HtmlLibrary.com</a>
             </div>
         </footer>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.email.com",
+                    Username : "htmllibraryth@gmail.com",
+                    Password : "Bz123321za",
+                    To : 'bankthitiphan.pa@gmail.com',
+                    From : document.getElementById("emailAddress").value,
+                    Subject : "This the subject",
+                    Body : "And this is the body"
+                }).then(
+                    message => alert("ส่งอีเมลเรียบร้อย")
+                );
+            }
+        </script>
     </body>
 </html>
