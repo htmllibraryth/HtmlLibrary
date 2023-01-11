@@ -146,7 +146,7 @@
                 font-family: sarabun;
                 user-select: none;">
                     <b style="
-                    color:#00b4d8;">บทเรียนที่ 5</b> การสร้างตาราง
+                    color:#00b4d8;">บทเรียนที่ 6</b> การเชื่อมโยงเอกสาร
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb" style="
@@ -154,14 +154,18 @@
                     user-select: none;">
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix.html" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 6</strong> การเชื่อมโยงเอกสาร</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-one.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารโดยใช้ข้อความและรูปภาพหรือสัญลักษณ์</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-two.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงในหน้าเว็บเพจเดียวกัน</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-three.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงไปยังเว็บเพจอื่น</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-four.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงไปยังเว็บไซต์อื่น</a></li>
                         <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-one.html" style="
-                        text-decoration: none;">การสร้างตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-two.html" style="
-                        text-decoration: none;">การตกแต่งตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-three.html" style="
-                        text-decoration: none;">การใส่รูปภาพลงในตาราง</a></li>
+                        text-decoration: none;">การเชื่อมโยงเอกสารไปยังอีเมล์</a></li>                         
                     </ol>
                   </nav>
                   <div class="container-fluid text-white pt-3">
@@ -171,8 +175,8 @@
                             <b>จุดประสงค์การเรียนรู้</b>
                         </h4>
                         <font class="text-white">
-                            1.  อธิบายรูปแบบคำสั่งของภาษา HTML ที่ใช้ในการสร้างตาราง<br>
-                            2.  สามารถใช้คำสั่งภาษา HTML ในการสร้างตารางได้ <br>
+                            1. สามารถใช้คำสั่งภาษา HTML สร้าง Link เชื่อมโยงไปยัง E-mail<br>
+                            2. สามารถทำการสร้างจุดเชื่อมโยงไปยัง E-mail ได้ <br>
                         </font>
                     </div>
             </div>
@@ -180,14 +184,77 @@
         <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-            <div class="container p-2"  style="
+        <div class="container p-2"  style="
+        font-family: sarabun;">
+            <hr>
+            <h4 class="text-dark">
+                <b>การสร้าง Link ไปยัง E-mail</b>
+            </h4>
+            <font class="text-dark">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; การสร้าง Link ไปยัง E-mail เป็นการเชื่อมโยงเอกสารไปยัง E-mail Address ที่เรากำหนดไว้ เช่น การสร้าง Link เพื่อให้ผู้ใช้ส่ง E-mail มายัง Web Master การสร้าง Link แบบนี้เป็นการเรียกโปรแกรมรับ-ส่งเมล์ เช่น Outlook เป็นต้น หากเครื่องที่เราใช้ไม่ได้ติดตั้งโปรแกรมที่ใช้รับ-ส่งเมล์ไว้ก็ไม่สามารถใช้การเชื่อมโยงไปยัง E-mail ได้ จนกว่าจะนำมาติดตั้งเพิ่ม
+            </font>
+            <hr>
+        </div>
+        <div class="container p-2" style="
+        font-family: sarabun;">
+            <hr>
+            <h4 class="text-dark">
+                <b>ตัวอย่างโปรแกรม</b>
+            </h4>
+            <font class="text-dark">
+                การสร้าง Link ไปยัง E-mail
+            </font>
+            <div class="container" style="
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-style: solid;
+            border-width: 10px;
+            border-color: #222222;
+            background-color: #222222;">
+                <div class="container" style="
+                background-color: #ffffff;">
+                    <font>
+                        <p  style="
+                        color:#000000;
+                        padding: 10px;
+                        margin: 10px;"
+                        >
+                            <code>
+                                &lt;html&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>นี่คือเว็บเพจแรกของฉัน<code>&lt;/title&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แบบที่ 1 ลิ้งค์ข้อความธรรมดา<code>&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;A HREF="Mailto:htmllibraryth@gmail.com"&gt;</code>ส่งอีเมล์ถึง htmllibraryth<code>&lt;/a&gt;&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แบบที่ 2 ใช้รูปภาพเป็นลิ้งค์ เพื่อเพิ่มความน่าสนใจ<code>&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;A HREF="Mailto:htmllibraryth@gmail.com"&gt;&lt;img src="/Picture/code-1.jpg" WIDTH="150" HIGHT="124"&gt;&lt;/a&gt;&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;</code><br>
+                                &lt;/html&gt;
+                            </code>
+                        </p>
+                    </font>                        
+                </div>
+                <a class="btn btn-info me-ms-2" href="LessionSix-code-5.html" target="_blank" id="btn" type="button">
+                    <b style="
+                    font-family: sarabun;">
+                        แสดงผลลัพธ์                   
+                    </b>
+                </a>
+            </div>
+            <hr>
+        </div>
+        <div class="container p-2"  style="
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>ภาษา HTML</b>
+                    <b>อธิบายคำสั่ง</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Table หรือ ตาราง เป็นอีกวิธีหนึ่งในการนำเสนอข้อมูลบน Web ที่เหมาะกับข้อมูลที่เป็นรายงานสถิติ หรือข้อมูลที่เป็นตัวเลขจำนวนมาก ๆ รวมทั้งเป็นการจัดหมวดหมู่ของข้อมูลให้เป็นระเบียบ ง่ายต่อการเข้าใจ จะสังเกตเห็นว่า Home Page ส่วนใหญ่่จะมีการนำตารางมาช่วยในการจัดเมนูหรือหัวข้อที่เป็น ไปยัง Web Page หรือ Web Site  อื่น ตัวอย่าง เช่น เว็บไซต์ของ Sanook.com ที่มีการจัดหน้าเว็บเพจด้วยการนำเอาตารางมาประยุกต์ใช้
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>A</code> = แท็กคำสั่งเริ่มต้นเพื่อบอกเบราส์เซอร์ให้รู้ว่านี่คือลิ้งค์<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>HREF="ชื่อไฟล์/ที่อยู่ URL"</code> = ชื่อไฟล์/ที่อยู่เว็บไซต์ปลายทางที่ต้องการเชื่อมโยงไปถึง (ต้องระบุ)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>ข้อความ</code> =  ข้อความที่ใช้แสดงว่านี่คือลิ้งค์ <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>/A</code> = แท็กปิดท้ายข้อความลิ้งค์<br>
                 </font>
                 <hr>
             </div>
@@ -195,11 +262,11 @@
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">1</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-one.html">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">ไปต่อ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-three.html">ย้อนกลับ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-three.html">4</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-Four.html">5</a></li>
+                      <li class="page-item  disabled"><a class="page-link" href="LessionSix-Five.html">6</a></li>
+                      <li class="page-item  disabled"><a class="page-link" href="LessionSix-Five.html">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>

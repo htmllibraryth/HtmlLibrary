@@ -146,7 +146,7 @@
                 font-family: sarabun;
                 user-select: none;">
                     <b style="
-                    color:#00b4d8;">บทเรียนที่ 5</b> การสร้างตาราง
+                    color:#00b4d8;">บทเรียนที่ 6</b> การเชื่อมโยงเอกสาร
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb" style="
@@ -154,14 +154,18 @@
                     user-select: none;">
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix.html" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 6</strong> การเชื่อมโยงเอกสาร</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-one.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารโดยใช้ข้อความและรูปภาพหรือสัญลักษณ์</a></li>
                         <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-one.html" style="
-                        text-decoration: none;">การสร้างตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-two.html" style="
-                        text-decoration: none;">การตกแต่งตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-three.html" style="
-                        text-decoration: none;">การใส่รูปภาพลงในตาราง</a></li>
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงในหน้าเว็บเพจเดียวกัน</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-three.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงไปยังเว็บเพจอื่น</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-four.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงไปยังเว็บไซต์อื่น</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-five.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารไปยังอีเมล์</a></li>                         
                     </ol>
                   </nav>
                   <div class="container-fluid text-white pt-3">
@@ -171,8 +175,8 @@
                             <b>จุดประสงค์การเรียนรู้</b>
                         </h4>
                         <font class="text-white">
-                            1.  อธิบายรูปแบบคำสั่งของภาษา HTML ที่ใช้ในการสร้างตาราง<br>
-                            2.  สามารถใช้คำสั่งภาษา HTML ในการสร้างตารางได้ <br>
+                            1. สามารถใช้คำสั่งภาษา HTML ทำ Link เชื่อมโยงภายในหน้าเว็บเพจเดียวกัน<br>
+                            2. สามารถทำการสร้างจุดเชื่อมโยง ภายในหน้าเว็บเพจเดียวกันได้<br>
                         </font>
                     </div>
             </div>
@@ -180,14 +184,94 @@
         <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-            <div class="container p-2"  style="
+        <div class="container p-2"  style="
+        font-family: sarabun;">
+            <hr>
+            <font class="text-dark">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; การทำลิ้งค์เชื่อมโยงภายในหน้าเว็บเพจเดียวกันนี้ เหมาะสำหรับนำไปใช้กับหน้าเว็บเพจที่มีเนื้อหาขนาดยาว
+                (หลายบรรทัด) เพื่อให้นักเรียนสามารถคลิ๊กที่หัวข้อที่ต้องการอ่านได้ โดยไม่ต้องเสียเวลา เลื่อนหน้าเว็บเพจ
+                เพื่อค้นหา ตัวอย่างที่นำมาแสดงนี้ ยังไม่ถือว่าเป็นเว็บเพจที่มีขนาดยาว แต่นักเรียนสามารถนำไปประยุกต์ใช้
+                ได้ตามความเหมาะสม ... 
+            </font>
+            <hr>
+        </div>
+        <div class="container p-2" style="
+        font-family: sarabun;">
+            <hr>
+            <h4 class="text-dark">
+                <b>ตัวอย่างโปรแกรม</b>
+            </h4>
+            <div class="container" style="
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-style: solid;
+            border-width: 10px;
+            border-color: #222222;
+            background-color: #222222;">
+                <div class="container" style="
+                background-color: #ffffff;">
+                    <font>
+                        <p  style="
+                        color:#000000;
+                        padding: 10px;
+                        margin: 10px;"
+                        >
+                            <code>
+                                &lt;html&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การทำลิ้งค์เชื่อมโยงภายในหน้าเว็บเพจเดียวกัน<code>&lt;/title&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;กรุณาเลือกหัวข้อที่ต้องการ&gt;&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;A HREF="#content"&gt;</code>ข้อมูลทั่วไป<code>&lt;/a&gt;&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;A HREF="#travel"&gt;</code>ข้อมูลการเดินทาง<code>&lt;/a&gt;&lt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;A NAME="content"&gt;</code>ข้อมูลทั่วไป<code>&lt;/a&gt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;417 ปีแห่งการเป็นราชธานีเก่าแก่ของสยามประเทศ ประกอบด้วย   ราชวงศ์  คือ ราชวงศ์อู่ทอง ราชวงศ์สุพรรณภูมิ ราชวงศ์สุโขทัย ราชวงศ์ปราสาททองและราชวงศ์บ้านพลูหลวง<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มีกษัตริย์ปกครองทั้งสิ้น 33 พระองค์ โดยมีปฐมกษัตริย์ คือ สมเด็จพระรามาธิบดีที่ 1 (พระเจ้าอู่ทอง)พระนครศรีอยุธยาจึงนับเป็นราชธานีที่มีอายุยาวนานที่สุดในประวัติศาสตร์
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ของชาติไทย  ตลอดระยะเวลา 417 ปี ที่กรุงศรีอยุธยาเป็นราชธานีแห่งราชอาณาจักรไทย มิได้เป็นเพียงช่วงแห่งความเจริญสูงสุดของชนชาติไทยเท่านั้น แต่ยังเป็นการสร้างสรรค์
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อารยธรรมของหมู่มวลมนุษยชาติซึ่งเป็นที่ประจักษ์แก่นานาอารยประเทศอีกด้วย แม้ว่ากรุงศรีอยุธยาจะถูกทำลายเสียหายจากสงครามกับประเทศเพื่อนบ้านหรือจากการบุกรุกขุด
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ค้นของพวกเรากันเอง แต่สิ่งที่ปรากฏให้เห็นในปัจจุบันนี้ยังมีร่องรอยหลักฐานซึ่งแสดงอัจฉริยภาพและความสามารถอันยิ่งใหญ่ของบรรพบุรุษ แห่งราชอาณาจักรผู้อุทิศตนสร้าง
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สรรค์ความเจริญรุ่งเรืองทางศิลปวัฒนธรรม และความมั่งคั่งไว้ให้แก่ผืนแผ่นดินไทย หรือแม้แต่ชาวโลกทั้งมวล จึงเป็นที่น่ายินดีว่า องค์การยูเนสโก้ โดยคณะกรรมการมรดกโลกได้มี
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มติรับนครประวัติศาสตร์พระนครศรีอยุธยา ซึ่งมีอาณาเขตครอบคลุมอุทยานประวัติศาสตร์พระนครศรีอยุธยา และเป็นพื้นที่ที่ได้รับการจัดตั้งเป็น อุทยานประวัติศาสตร์มาตั้งแต่ปี 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;พ.ศ. 2519 ไว้ในบัญชีมรดกโลก เมื่อวันที่ 13 ธันวาคม พ.ศ. 2534 ณ กรุงคาร์เทจ ประเทศตูนีเซีย พร้อมกับอุทยานประวัติศาสตร์สุโขทัย-อุทยานประวัติศาสตร์ศรีสัชนาลัย-อุทยาน
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ประวัติศาสตร์กำแพงเพชรโดยจะมีผลให้ได้รับความคุ้มครองตามอนุสัญญาที่ประเทศต่างๆได้ทำร่วมกันจึงสมควรที่อนุชนรุ่นหลังจะได้ไปศึกษาเยี่ยมชมเมืองหลวงเก่าของเราแห่งนี้<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;A NAME="travel"&gt;</code>ข้อมูลการเดินทาง<code>&lt;/a&gt;br&gt;</code><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; จากกรุงเทพฯ สามารถเดินทางไปจังหวัดพระนครศรีอยุธยา ได้หลายเส้นทางดังนี้<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. ใช้ทางหลวงหมายเลข 1 (ถนนพหลโยธิน) ผ่านประตูน้ำพระอินทร์ แล้วแยกเข้าทางหลวงหมายเลข 32 เลี้ยวซ้ายไปตามทางหลวงหมายเลข 309 เข้าสู่จังหวัดพระนครศรีอยุธยา<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ใช้ทางหลวงหมายเลข 304 (ถนนแจ้งวัฒนะ) หรือทางหลวงหมายเลข 302 (ถนนงามวงศ์วาน) เลี้ยวขวาเข้าทางหลวงหมายเลข 306 (ถนนติวานนท์) แล้วข้ามสะพานนนทบุรีหรือสะพานนวลฉวี ไปยังจังหวัดปทุมธานีต่อด้วยเส้นทาง ปทุมธานี-สามโคก-เสนา (ทางหลวงหมายเลข 3111) เลี้ยวแยกขวาที่อำเภอเสนา เข้าสู่ทางหลวงหมายเลข 3263 เข้าสู่จังหวัดพระนครศรีอยุธยา<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. ใช้เส้นทางกรุงเทพฯ-นนทบุรี-ปทุมธานี ทางหลวงหมายเลข 306 ถึงทางแยกสะพานปทุมธานี เลี้ยวเข้าสู่ทางหลวงหมายเลข 347 แล้วไปแยกเข้าทางหลวงหมายเลข 3309 ผ่านศูนย์ศิลปาชีพบางไทร อำเภอบางปะอิน เข้าสู่จังหวัดพระนครศรีอยุธยา.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>
+                                &lt;/html&gt;
+                            </code>
+                        </p>
+                    </font>                        
+                </div>
+                <a class="btn btn-info me-ms-2" href="LessionSix-code-2.html" target="_blank" id="btn" type="button">
+                    <b style="
+                    font-family: sarabun;">
+                        แสดงผลลัพธ์                   
+                    </b>
+                </a>
+            </div>
+            <hr>
+        </div>
+        <div class="container p-2"  style="
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>ภาษา HTML</b>
+                    <b>อธิบายคำสั่ง</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Table หรือ ตาราง เป็นอีกวิธีหนึ่งในการนำเสนอข้อมูลบน Web ที่เหมาะกับข้อมูลที่เป็นรายงานสถิติ หรือข้อมูลที่เป็นตัวเลขจำนวนมาก ๆ รวมทั้งเป็นการจัดหมวดหมู่ของข้อมูลให้เป็นระเบียบ ง่ายต่อการเข้าใจ จะสังเกตเห็นว่า Home Page ส่วนใหญ่่จะมีการนำตารางมาช่วยในการจัดเมนูหรือหัวข้อที่เป็น ไปยัง Web Page หรือ Web Site  อื่น ตัวอย่าง เช่น เว็บไซต์ของ Sanook.com ที่มีการจัดหน้าเว็บเพจด้วยการนำเอาตารางมาประยุกต์ใช้
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ส่วนที่ 1 กำหนดข้อความลิ้งค์ (ต้นทาง)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>A</code> = แท็กคำสั่งเริ่มต้นเพื่อบอกเบราส์เซอร์ให้รู้ว่านี่คือลิ้งค์<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>HREF="#ชื่อหัวข้อ"</code> = ชื่อหัวข้อหรือตำแหน่ง ของข้อความที่ต้องการลิ้งค์ (ต้องระบุ)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>ข้อความ</code> = ข้อความที่ใช้แสดงว่านี่คือลิ้งค์<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>/A</code> = แท็กปิดท้ายข้อความลิ้งค์<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ส่วนที่ 2 กำหนดชื่อหรือตำแหน่งของลิ้งค์ (ปลายทาง)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>A</code> = แท็กคำสั่งเริ่มต้นเพื่อบอกเบราส์เซอร์ให้รู้ว่านี่คือลิ้งค์<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>HREF="#ชื่อหัวข้อ"</code> = ชื่อหัวข้อหรือตำแหน่งปลายทางของลิ้งค์ (ต้องระบุ)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>ข้อความ</code> = ข้อความที่ใช้แสดงเป็นหัวข้อและตำแหน่งปลายทาง<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>/A</code> = แท็กปิดท้ายข้อความลิ้งค์<br>
                 </font>
                 <hr>
             </div>
@@ -195,11 +279,11 @@
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">1</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-one.html">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">ไปต่อ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-one.html">ย้อนกลับ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-one.html">2</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionSix-two.html">3</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-three.html">4</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-three.html">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>

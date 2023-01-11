@@ -146,7 +146,7 @@
                 font-family: sarabun;
                 user-select: none;">
                     <b style="
-                    color:#00b4d8;">บทเรียนที่ 5</b> การสร้างตาราง
+                    color:#00b4d8;">บทเรียนที่ 7</b> การสร้างฟอร์ม
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb" style="
@@ -154,14 +154,22 @@
                     user-select: none;">
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven.html" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 7</strong> การร้างฟอร์ม</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven-one.html" style="
+                        text-decoration: none;">การสร้างช่องรับข้อมูลชนิด Text Box</a></li>
                         <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-one.html" style="
-                        text-decoration: none;">การสร้างตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-two.html" style="
-                        text-decoration: none;">การตกแต่งตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-three.html" style="
-                        text-decoration: none;">การใส่รูปภาพลงในตาราง</a></li>
+                        text-decoration: none;">การสร้างช่องรับข้อมูลชนิด Password</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven-three.html" style="
+                        text-decoration: none;">การสร้างช่องรับข้อมูลชนิด Text Area</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven-four.html" style="
+                        text-decoration: none;">การสร้างช่องรับข้อมูลชนิด Check Box</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven-five.html" style="
+                        text-decoration: none;">การสร้างช่องรับข้อมูลชนิด Radio Button</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven-six.html" style="
+                        text-decoration: none;">การสร้างช่องรับข้อมูลชนิด Selection Box</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSeven-seven.html" style="
+                        text-decoration: none;">การสร้างปุ่ม Button</a></li>
                     </ol>
                   </nav>
                   <div class="container-fluid text-white pt-3">
@@ -171,8 +179,8 @@
                             <b>จุดประสงค์การเรียนรู้</b>
                         </h4>
                         <font class="text-white">
-                            1.  อธิบายรูปแบบคำสั่งของภาษา HTML ที่ใช้ในการสร้างตาราง<br>
-                            2.  สามารถใช้คำสั่งภาษา HTML ในการสร้างตารางได้ <br>
+                            1. สามารถใช้คำสั่งการสร้าง Form ได้ถูกต้อง<br>
+                            2. สามารถใช้คำสั่ง Form เพื่อการสร้างช่องรับข้อมูลชนิด Password ได้<br>
                         </font>
                     </div>
             </div>
@@ -184,22 +192,74 @@
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>ภาษา HTML</b>
+                    <b>การสร้างช่องรับข้อมูลชนิด Password</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Table หรือ ตาราง เป็นอีกวิธีหนึ่งในการนำเสนอข้อมูลบน Web ที่เหมาะกับข้อมูลที่เป็นรายงานสถิติ หรือข้อมูลที่เป็นตัวเลขจำนวนมาก ๆ รวมทั้งเป็นการจัดหมวดหมู่ของข้อมูลให้เป็นระเบียบ ง่ายต่อการเข้าใจ จะสังเกตเห็นว่า Home Page ส่วนใหญ่่จะมีการนำตารางมาช่วยในการจัดเมนูหรือหัวข้อที่เป็น ไปยัง Web Page หรือ Web Site  อื่น ตัวอย่าง เช่น เว็บไซต์ของ Sanook.com ที่มีการจัดหน้าเว็บเพจด้วยการนำเอาตารางมาประยุกต์ใช้
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราจะเห็นว่าช่องรับข้อมูลชนิด Password ได้จากเวลาที่ Log in เข้า E-mail หรือเข้าระบบต่าง ๆ โดยช่องกำหนดให้เป็นช่องรับข้อมูลชนิด Password เมื่อคีย์ข้อมูลเข้าไปในช่องแล้ว เราจะมองเห็นเป็นเครื่องหมาย *   จะไม่สามารถมองเห็นข้อมูลจริง ๆ ที่เราคีย์เข้าไปได้<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รูปแบบคำสั่ง HTML ในการสร้างช่องรับข้อมูลชนิด Password<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;INPUT TYPE=" Password" NAME="ชื่อของ Password" VALUE="ค่าเริ่มต้น" SIZE="ขนาด Password" MAXLENGHT="จำนวนตัวอักษรสูงสุดที่บันทึกได้"&gt;</code>
                 </font>
+                <hr>
+            </div>
+            <div class="container p-2" style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>ตัวอย่างโปรแกรม</b>
+                </h4>
+                <font class="text-dark">
+                    การสร้าง Form เพื่อรับข้อมูลชนิด Password
+                </font>
+                <div class="container" style="
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-style: solid;
+                border-width: 10px;
+                border-color: #222222;
+                background-color: #222222;">
+                    <div class="container" style="
+                    background-color: #ffffff;">
+                        <font>
+                            <p  style="
+                            color:#000000;
+                            padding: 10px;
+                            margin: 10px;"
+                            >
+                                <code>
+                                    &lt;html&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การสร้าง Form<code>&lt;/title&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;H3&gt;</code>การสร้างช่องรับข้อมูลแบบ Pass Word<code>&lt;/H3&gt;</code><br> 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;FORM NAME="INPUT"&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รหัสผู้ใช้ : <code>&lt;INPUT TYPE="TEXT" NAME="fname" size=20 maxlenght=8&gt;&lt;BR&gt;</code><br> 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รหัสผ่าน : <code>&lt;INPUT TYPE ="Password" name="lname" size=10 maxlenght=8&gt;&lt;BR&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/FORM&gt;</code><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>
+                                    &lt;/html&gt;
+                                </code>
+                            </p>
+                        </font>                        
+                    </div>
+                    <a class="btn btn-info me-ms-2" href="LessionSeven-code-2.html" target="_blank" id="btn" type="button">
+                        <b style="
+                        font-family: sarabun;">
+                            แสดงผลลัพธ์                   
+                        </b>
+                    </a>
+                </div>
                 <hr>
             </div>
             <div class="container d-flex justify-content-center p-5">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">1</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-one.html">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">ไปต่อ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSeven-one.html">ย้อนกลับ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSeven-one.html">2</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionSeven-two.html">3</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSeven-three.html">4</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSeven-three.html">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>

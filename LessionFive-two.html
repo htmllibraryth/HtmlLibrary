@@ -154,11 +154,11 @@
                     user-select: none;">
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
-                        <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive.html" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</a></li>
                         <li class="breadcrumb-item"><a class="link-info" href="LessionFive-one.html" style="
                         text-decoration: none;">การสร้างตารางโดยใช้ภาษา HTML</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-two.html" style="
+                        <li class="breadcrumb-item active" aria-current="page" style="
                         text-decoration: none;">การตกแต่งตารางโดยใช้ภาษา HTML</a></li>
                         <li class="breadcrumb-item"><a class="link-info" href="LessionFive-three.html" style="
                         text-decoration: none;">การใส่รูปภาพลงในตาราง</a></li>
@@ -171,8 +171,12 @@
                             <b>จุดประสงค์การเรียนรู้</b>
                         </h4>
                         <font class="text-white">
-                            1.  อธิบายรูปแบบคำสั่งของภาษา HTML ที่ใช้ในการสร้างตาราง<br>
-                            2.  สามารถใช้คำสั่งภาษา HTML ในการสร้างตารางได้ <br>
+                            1. สามารถใช้คำสั่งต่าง ๆ ของภาษา HTML ในการตกแต่งตารางได้<br>
+                            2. สามารถสร้างกรอบและขนาดของเส้นกรอบตารางได้<br>
+                            3. สามารถกำหนดสีเส้นของตาราง ปรับขนาดตารางได้<br>
+                            4. สามารถกำหนดระยะห่างระหว่างช่องในตารางได้<br>
+                            5. สามารถกำหนดระยะระหว่างขอบกับข้อมูลในแต่ละช่อง<br>
+                            6. กำหนดตำแหน่งของข้อมูลในตารางให้ชิดซ้าย กึ่งกลาง และขวา<br>
                         </font>
                     </div>
             </div>
@@ -183,23 +187,101 @@
             <div class="container p-2"  style="
             font-family: sarabun;">
                 <hr>
-                <h4 class="text-dark">
-                    <b>ภาษา HTML</b>
-                </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Table หรือ ตาราง เป็นอีกวิธีหนึ่งในการนำเสนอข้อมูลบน Web ที่เหมาะกับข้อมูลที่เป็นรายงานสถิติ หรือข้อมูลที่เป็นตัวเลขจำนวนมาก ๆ รวมทั้งเป็นการจัดหมวดหมู่ของข้อมูลให้เป็นระเบียบ ง่ายต่อการเข้าใจ จะสังเกตเห็นว่า Home Page ส่วนใหญ่่จะมีการนำตารางมาช่วยในการจัดเมนูหรือหัวข้อที่เป็น ไปยัง Web Page หรือ Web Site  อื่น ตัวอย่าง เช่น เว็บไซต์ของ Sanook.com ที่มีการจัดหน้าเว็บเพจด้วยการนำเอาตารางมาประยุกต์ใช้
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ตามปกติแล้ว ตารางที่สร้างขึ้นจะไม่มีกรอบของตาราง หากต้องการจะสร้างกรอบให้ตาราง เพื่อให้การแบ่งส่วนของข้อมูลในตารางชัดเจนขึ้น มีวิธีการดังนี้
                 </font>
                 <hr>
             </div>
+            <div class="container p-2"  style="
+            font-family: sarabun;">
+                <hr>
+                <h4 class="text-dark">
+                    <b>การสร้างกรอบตาราง</b>
+                </h4>
+                <font class="text-dark">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รูปแบบคำสั่ง HTML ที่ใช้ในการสร้างกรอบตาราง<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TABLE BORDER = "ขนาดของกรอบ"&gt;</code> …… <code>&lt;/TABLE&gt;</code><br>
+                </font>
+                <hr>
+            </div>
+                <div class="container p-2"  style="
+                font-family: sarabun;">
+                    <hr>
+                    <h4 class="text-dark">
+                        <b>การกำหนดสีเส้นของตาราง</b>
+                    </h4>
+                    <font class="text-dark">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รูปแบบคำสั่ง HTML การกำหนดสีเส้นของตาราง<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TABLE BORDER = "ขนาดของกรอบ" BORDERCOLOR="ชื่อสีหรือรหัสสี"&gt;</code> …… <code>&lt;/TABLE&gt;</code><br>
+                    </font>
+                    <hr>
+                </div>
+                <div class="container p-2" style="
+                font-family: sarabun;">
+                    <hr>
+                    <h4 class="text-dark">
+                        <b>ตัวอย่างโปรแกรม</b>
+                    </h4>
+                    <div class="container" style="
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-style: solid;
+                    border-width: 10px;
+                    border-color: #222222;
+                    background-color: #222222;">
+                        <div class="container" style="
+                        background-color: #ffffff;">
+                            <font>
+                                <p  style="
+                                color:#000000;
+                                padding: 10px;
+                                margin: 10px;"
+                                >
+                                    <code>
+                                        &lt;html&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การสร้างตารางด้วยภาษา HTML<code>&lt;/title&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TABLE BORDER = 2 BORDERCOLOR=BLUE&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;CAPTION&gt;&lt;font color=blue&gt;</code>การตกแต่งตาราง<code>&lt;/font&gt;&lt;/CAPTION&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 1 คอลัมน์ 1<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 1 คอลัมน์ 2<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 2 คอลัมน์ 1<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 2 คอลัมน์ 2<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 3 คอลัมน์ 1<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 3 คอลัมน์ 2<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/TABLE&gt;</code><br>                                                                    
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>
+                                        &lt;/html&gt;
+                                    </code>
+                                </p>
+                            </font>                        
+                        </div>
+                        <a class="btn btn-info me-ms-2" href="LessionFive-code-2.html" target="_blank" id="btn" type="button">
+                            <b style="
+                            font-family: sarabun;">
+                                แสดงผลลัพธ์                   
+                            </b>
+                        </a>
+                    </div>
+                    <hr>
+                </div>
             <div class="container d-flex justify-content-center p-5">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">1</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionFive-one.html">ย้อนกลับ</a></li>
                       <li class="page-item"><a class="page-link text-info" href="LessionFive-one.html">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">ไปต่อ</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionFive-two.html">3</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionFive-three.html">4</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionFive-three.html">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>

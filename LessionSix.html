@@ -146,7 +146,7 @@
                 font-family: sarabun;
                 user-select: none;">
                     <b style="
-                    color:#00b4d8;">บทเรียนที่ 1</b> เอชทีเอ็มแอลเบื้องต้น
+                    color:#00b4d8;">บทเรียนที่ 6</b> การเชื่อมโยงเอกสาร
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb" style="
@@ -155,11 +155,17 @@
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
                         <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 1</strong> เอชทีเอ็มแอลเบื้องต้น</li>
-                        <li class="breadcrumb-item"><a class="link-info" href="#" style="
-                        text-decoration: none;">การสร้างและบันทึกเอกสาร</a></li>
-                        <li class="breadcrumb-item"><a class="link-info" href="#" style="
-                        text-decoration: none;">การแสดงไฟล์เอกสารและการเปิดดู CODE ภาษา HTML</a></li>
+                        text-decoration: none;"><strong>บทเรียนที่ 6</strong> การเชื่อมโยงเอกสาร</li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-one.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารโดยใช้ข้อความและรูปภาพหรือสัญลักษณ์</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-two.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงในหน้าเว็บเพจเดียวกัน</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-three.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงไปยังเว็บเพจอื่น</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-four.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารเชื่อมโยงไปยังเว็บไซต์อื่น</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionSix-five.html" style="
+                        text-decoration: none;">การเชื่อมโยงเอกสารไปยังอีเมล์</a></li>                         
                     </ol>
                   </nav>
                   <div class="container-fluid text-white pt-3">
@@ -169,11 +175,8 @@
                             <b>จุดประสงค์การเรียนรู้</b>
                         </h4>
                         <font class="text-white">
-                            1. สามารถอธิบายโครงสร้างและคำสั่งหลักของภาษา HTML ได้<br>
-                            2. อธิบายและใช้คำสั่งเบื้องต้นในการเขียนโปรแกรมภาษา HTML ได้<br>
-                            3. สามารถสร้างเว็บเพจด้วยภาษา HTML<br>
-                            4. สามารถแสดงผลลัพธ์บนเว็บบราวเซอร์ได้อย่างถูกต้อง<br>
-                            5. สามารถใช้โปรแกรม Notepad ในการพิมพ์ไฟล์เอกสาร HTML ได้<br>
+                            1. สามารถใช้คำสั่งภาษา HTML ทำการเชื่อมโยงหน้าเว็บเพจได้อย่างถูกต้อง<br>
+                            2. สามารถทำการสร้างจุดเชื่อมโยงโดยใช้ข้อความ รูปภาพหรือสัญลักษณ์<br>
                         </font>
                     </div>
             </div>
@@ -185,28 +188,12 @@
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>ภาษา HTML</b>
+                    <b>การสร้าง Link หรือการเชื่อมโยงเอกสารหน้าเว็บเพจ</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML หรือ HyperText Markup Language เป็นภาษาคอมพิวเตอร์รูปแบบหนึ่ง ที่มีลักษณะเป็นภาษาในเชิงการบรรยายเอกสารไฮเปอร์มีเดีย
-                    (Hypermedia Document Description Language) เพื่อนำเสนอเอกสารนั้น เผยแพร่ในระบบเครือข่ายใยแมงมุม WWW (World Wide Web) มีโครงสร้างการเขียน ที่อาศัยตัวกำกับ เรียกว่า แท็ก (Tag) ควบคุมการแสดงผลของข้อความ, รูปภาพ หรือวัตถุอื่นๆ ผ่านโปรแกรมบราวเซอร์ (Browser)
-                </font>
-                <hr>
-            </div>
-            <div class="container p-2" style="
-            font-family: sarabun;">
-                <hr>
-                <h4 class="text-dark">
-                    <b>แท็ก</b>
-                </h4>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แท็ก เป็นลักษณะเฉพาะของภาษา HTML ใช้ในการระบุรูปแบบคำสั่ง หรือการลงรหัสคำสั่ง HTML ภายในเครื่องหมายน้อยกว่า (<code>&lt;</code>) และมากกว่า(<code>&gt;</code>) โดยที่แท็ก HTML แบ่งได้ 2 ลักษณะคือ<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- แท็กเดี่ยว เป็นแท็กที่ไม่ต้องมีการปิดรหัส เช่น <code>&lt;P&gt; , &lt;HR&gt;</code> เป็นต้น<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- แท็กเปิด/ปิด เป็นแท็กที่ประกอบด้วย แท็กเปิด และ แท็กปิด โดยแท็กปิด จะมีเครื่องหมายสแลช (<code>/</code>) นำหน้าคำสั่งในแท็กนั้นๆ เช่น <code>&lt;B&gt;…&lt;/B&gt; , &lt;P&gt;…&lt;/P&gt;</code> เป็นต้น
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ในการสร้าง Link ต้องคำนึงถึงจุด Link และปลายทางของ Link จะเกิดจากเราสร้าง ขึ้นเอง ส่วนปลายทางของ Link จะมีทั้งที่เราสร้างขึ้นมาเอง คือชื่อของส่วนย่อยของเว็บเพจ และที่เราไม่ต้องสร้างขึ้นเองคือ URL หรือชื่อเว็บเพจ การสร้างมี 2 ลักษณะดังนี้
+                    1. การสร้าง Link  โดยใช้ข้อความ<br>
+                    2. การสร้าง Link โดยใช้รูปภาพหรือสัญลักษณ์<br>
                 </font>
                 <hr>
             </div>
@@ -214,81 +201,14 @@
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>คุณลักษณะ</b>
+                    <b>ในบทนี้จะประกอบไปด้วย</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เป็นส่วนขยายความสามารถของแท็กจะต้องใส่ภายในเครื่องหมาย <code>&lt; &gt;</code> ในส่วนแท็กเปิดเท่านั้นแท็กคำสั่ง HTML แต่ละคำสั่ง จะมีคุณลักษณะ แตกต่างกันไป และมีจำนวนไม่เท่ากัน การระบุคุณลักษณะ มากกว่า 1 คุณลักษณะ ให้ใช้ช่องว่างเป็นตัวคั่น เช่น แท็ก ควบคุมเกี่ยวกับรูปภาพ <code>&lt;IMG&gt;</code> มี Attributes ดังนี้<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;IMG SRC="ชื่อไฟล์.นามสกุล" WIDTH="n" HEIGHT="n" ALT="text" BORDER="n"&gt;</code><br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>SRC</code> เป็นคุณลักษณะควบคุมชื่อไฟล์ภาพที่จะนำมาแสดงผล<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>WIDTH</code> เป็นคุณลักษณะควบคุมความกว้างของภาพ<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>HEIGHT</code> เป็นคุณลักษณะควบคุมความสูงของภาพ<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>ALT</code> เป็นคุณลักษณะควบคุมคำอธิบายภาพ<br>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <code>BORDER</code> เป็นคุณลักษณะควบคุมขนาดของเส้นขอบของภาพ<br>
-                </font>
-                <hr>
-            </div>
-            <div class="container p-2"  style="
-            font-family: sarabun;">
-                <hr>
-                <p class="text-dark"> 
-                    ไฟล์เอกสาร HTML เป็นไฟล์ข้อความรูปแบบหนึ่ง (Text File) ที่เก็บชุดคำสั่ง HTML ดังนั้นการสร้างเอกสาร HTML จึงสามารถใช้ Text Editor ตัวใดก็ได้ เช่น NotePad Editplus หรือ Dreamweaver
-                </p>
-                <font>
-                    <h4 class="text-dark">
-                        <b>เริ่มด้วยการเปิดโปรแกรม Notepad</b>
-                    </h4>
-                </font>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แต่ละข้อความที่พิมพ์มานี้เราเรียกมันว่าแท็กซึ่งแท็กแรกเป็นแท็กที่ใช้บอกว่าเป็นการเริ่มต้นเอกสาร และต่อมาก็คือแท็กที่ใช้บอกจุดสิ้นสุด การกำหนดว่าแท็กใดเป็นแท็กสิ้นสุด สามารถทำได้โดยการใส่เครื่องหมาย "<code>/</code>" ไว้ที่หน้าแท็กเป็นส่วนใหญ่ , แต่ก็ไม่ได้หมายความว่าทุกแท็ก จำเป็นจะต้องมีแท็กปิดเสมอไป
-                    เมื่อเรานึกถึง "แท็ก" ก็เหมือนกับว่า เราได้พูดคุยกับ โปรแกรมเบราส์เซอร์ หรือไม่ก็เป็นการบอกรายละเอียดให้กับมัน แล้วอะไรละที่จะบอกสิ่งแรกก็คือ "นี่คือการเริ่มต้นเอกสาร <code>&lt;HTML&gt;</code> และสิ่งต่อมาก็คือ "นี่คือการสิ้นสุดเอกสาร" <code>&lt;/HTML&gt;</code> เมื่อมาถึงตรง นี้แล้ว สิ่งที่จะต้องทำต่อไปก็คือเริ่มใส่แท็กอื่น ๆ เข้าไปอีก
-                    ในเอกสาร HTML โดยทั่วไปมักจะต้องมีแท็ก HEAD เพื่อกำหนดรายละเอียดในส่วนหัวของเอกสาร
-                </font>
-                <hr>
-            </div>
-            <div class="container p-2"  style="
-            font-family: sarabun;">
-                <hr>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;และรายละเอียดแรกที่เราจะใส่ไว้ในส่วนหัวของเอกสาร (อยู่ระหว่างแท็ก HEAD) ก็คือ แท็กไตเติ้ล TITLE ซึ่งก็คือชื่อเรื่องนั่นเอง
-                </font>
-                <hr>
-            </div>
-            <div class="container p-2"  style="
-            font-family: sarabun;">
-                <hr>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;และต่อมาก็คือแท็ก BODY ซึ่งเป็นแท็กที่สำคัญอย่างยิ่ง เพราะต่อไปรายละเอียดต่างๆ ใน เอกสารของเราจะถูกใส่ไว้ภายในแท็กนี้
-                </font>
-                <hr>
-            </div>
-            <div class="container p-2"  style="
-            font-family: sarabun;">
-                <hr>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อีกสิ่งหนึ่งที่เราจะทำกันก็คือ , ใส่ชื่อหรือไตเติ้ลให้กับเอกสาร
-                </font>
-                <hr>
-            </div>
-            <div class="container p-2"  style="
-            font-family: sarabun;">
-                <hr>
-                <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บันทึก ข้อมูลที่พิมพ์มาทั้งหมดโดยเลือก File / Save as แล้วตั้งชื่อเป็น example1.html<br>
-                </font>
-                <font class="text-dark"></font>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ก่อนที่จะข้ามไปเรียนรู้ในบทต่อไป มีสิ่งจำเป็น 2 ประการที่จะต้องเตรียมก็คือ ประการที่ 1 จะต้องเตรียมข้อมูล พอคร่าว ๆ ว่าเว็บเพจของเราควรจะมีหน้าตาเป็นอย่างไร และประการที่ 2 คือต้องจำองค์ประกอบพื้นฐานของ เอกสาร HTML ในบทนี้ให้ดี
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การสร้าง Link โดยใช้ข้อความและรูปภาพหรือสัญลักษณ์<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การทำ Link เชื่อมโยงในหน้าเว็บเพจเดียวกัน<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การทำ Link เชื่อมโยงไปยังเว็บเพจอื่น<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การทำ Link เชื่อมโยงไปยังเว็บไซต์อื่น<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การทำ Link ไปยังอีเมล์<br>
                 </font>
                 <hr>
             </div>
@@ -296,11 +216,11 @@
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="#">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="#">ไปต่อ</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionSix.html">ย้อนกลับ</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionSix.html">1</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-one.html">2</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-two.html">3</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionSix-two.html">ไปต่อ</a></li>
                     </ul>
                   </nav>
             </div>

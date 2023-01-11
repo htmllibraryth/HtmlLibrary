@@ -154,9 +154,9 @@
                     user-select: none;">
                         <li class="breadcrumb-item"><a class="link-info" href="index.html" style="
                         text-decoration: none;">หน้าแรก</a></li>
+                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive.html" style="
+                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</a></li>
                         <li class="breadcrumb-item active" aria-current="page" style="
-                        text-decoration: none;"><strong>บทเรียนที่ 5</strong> การสร้างตาราง</li>
-                        <li class="breadcrumb-item"><a class="link-info" href="LessionFive-one.html" style="
                         text-decoration: none;">การสร้างตารางโดยใช้ภาษา HTML</a></li>
                         <li class="breadcrumb-item"><a class="link-info" href="LessionFive-two.html" style="
                         text-decoration: none;">การตกแต่งตารางโดยใช้ภาษา HTML</a></li>
@@ -184,20 +184,99 @@
             font-family: sarabun;">
                 <hr>
                 <h4 class="text-dark">
-                    <b>ภาษา HTML</b>
+                    <b>คำสั่งที่นำมาใช้ในการสร้างตาราง</b>
                 </h4>
                 <font class="text-dark">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Table หรือ ตาราง เป็นอีกวิธีหนึ่งในการนำเสนอข้อมูลบน Web ที่เหมาะกับข้อมูลที่เป็นรายงานสถิติ หรือข้อมูลที่เป็นตัวเลขจำนวนมาก ๆ รวมทั้งเป็นการจัดหมวดหมู่ของข้อมูลให้เป็นระเบียบ ง่ายต่อการเข้าใจ จะสังเกตเห็นว่า Home Page ส่วนใหญ่่จะมีการนำตารางมาช่วยในการจัดเมนูหรือหัวข้อที่เป็น ไปยัง Web Page หรือ Web Site  อื่น ตัวอย่าง เช่น เว็บไซต์ของ Sanook.com ที่มีการจัดหน้าเว็บเพจด้วยการนำเอาตารางมาประยุกต์ใช้
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;Table&gt; …… &lt;/Table&gt;</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- เป็น Tag สำหรับกำหนดจุดเริ่มต้นและสิ้นสุดการสร้างตาราง<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt; …… &lt;/TR&gt;</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- เป็น Tag สำหรับสร้างแถว (row) ให้กับตาราง<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt; …… &lt;/TD&gt;</code><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- เป็น Tag สำหรับสร้างคอลัมน์  (column) ให้กับตารางHTML<br>
                 </font>
                 <hr>
             </div>
+                <div class="container p-2"  style="
+                font-family: sarabun;">
+                    <hr>
+                    <h4 class="text-dark">
+                        <b>รูปแบบของคำสั่ง ที่ใช้ในการสร้างตาราง</b>
+                    </h4>
+                    <font class="text-dark">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;Table&gt;</code><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;CAPTION&gt;</code>หัวข้อตาราง<code>&lt;/CAPTION&gt;</code><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>คอลัมน์ที่ 1<code>&lt;/TD&gt;</code><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>คอลัมน์ที่ 2<code>&lt;/TD&gt;</code><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/TR&gt;</code><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/Table&gt;</code><br>
+                    </font>
+                    <hr>
+                </div>
+                <div class="container p-2" style="
+                font-family: sarabun;">
+                    <hr>
+                    <h4 class="text-dark">
+                        <b>ตัวอย่างโปรแกรม</b>
+                    </h4>
+                    <div class="container" style="
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-style: solid;
+                    border-width: 10px;
+                    border-color: #222222;
+                    background-color: #222222;">
+                        <div class="container" style="
+                        background-color: #ffffff;">
+                            <font>
+                                <p  style="
+                                color:#000000;
+                                padding: 10px;
+                                margin: 10px;"
+                                >
+                                    <code>
+                                        &lt;html&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;</code>การสร้างตารางด้วยภาษา HTML<code>&lt;/title&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TABLE BORDER = 2&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;CAPTION&gt;</code>การสร้างตารางอย่างง่าย<code>&lt;/CAPTION&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 1 คอลัมน์ 1<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 1 คอลัมน์ 2<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 2 คอลัมน์ 1<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 2 คอลัมน์ 2<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 3 คอลัมน์ 1<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TD&gt;</code>แถว 3 คอลัมน์ 2<code>&lt;/TD&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;TR&gt;</code><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/TABLE&gt;</code><br>                                                                    
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;/body&gt;<br>
+                                        &lt;/html&gt;
+                                    </code>
+                                </p>
+                            </font>                        
+                        </div>
+                        <a class="btn btn-info me-ms-2" href="LessionFive-code-1.html" target="_blank" id="btn" type="button">
+                            <b style="
+                            font-family: sarabun;">
+                                แสดงผลลัพธ์                   
+                            </b>
+                        </a>
+                    </div>
+                    <hr>
+                </div>
             <div class="container d-flex justify-content-center p-5">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination" style="
                     font-family: sarabun;">
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">ย้อนกลับ</a></li>
-                      <li class="page-item disabled"><a class="page-link" href="LessionFive.html">1</a></li>
-                      <li class="page-item"><a class="page-link text-info" href="LessionFive-one.html">2</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionFive.html">ย้อนกลับ</a></li>
+                      <li class="page-item"><a class="page-link text-info" href="LessionFive.html">1</a></li>
+                      <li class="page-item disabled"><a class="page-link" href="LessionFive-one.html">2</a></li>
                       <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">3</a></li>
                       <li class="page-item"><a class="page-link text-info" href="LessionFive-two.html">ไปต่อ</a></li>
                     </ul>
