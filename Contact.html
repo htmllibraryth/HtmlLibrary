@@ -132,57 +132,67 @@
         </div>
         <main class="container-fluid p-5" style="
         background-color: #383838;">
-            <div class="container bg-dark text-white p-5 py-4">
-                <form id="contactForm">
-                  <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label" for="name">ชื่อ-นามสกุล&nbsp;</label><span style="color: red;">*</span>
-                    <input class="form-control" id="name" type="text" placeholder="ใส่ชื่อ-นามสกุล" data-sb-validations="required" />
-                    <div class="invalid-feedback" data-sb-feedback="name:required">กรุณาใส่ชื่อ</div>
-                  </div>
-                  <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label text-white" for="subject">เรื่อง&nbsp;</label>
-                        <select class="form-select" aria-label="Default select example" id="subject" name="subject">
-                            <option selected>ไม่มีหัวข้อ</option>
-                            <option value="problem">1. ปัญหาเกี่ยวกับการใช้งานเว็บไซต์</option>
-                            <option value="contact">2. ติดต่อสอบถาม</option>
-                            <option value="etc">3. อื่นๆ</option>
-                        </select>
-                </div>
-                <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label" for="email">อีเมล&nbsp;</label><span style="color: red;">*</span>
-                    <input class="form-control" id="email" type="email" placeholder="ใส่อีเมล" data-sb-validations="required, email" />
-                    <div class="invalid-feedback" data-sb-feedback="email:required">กรุณาใส่อีเมล</div>
-                    <div class="invalid-feedback" data-sb-feedback="email:email">ที่อยู่อีเมลไม่ถูกต้อง</div>
-                </div>
-                <div class="mb-3" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <label class="form-label" for="msg">ข้อความ&nbsp;</label><span style="color: red;">*</span>
-                    <textarea class="form-control" id="msg" type="text" placeholder="ใส่ข้อความ" style="height: 10rem;" data-sb-validations="required"></textarea>
-                    <div class="invalid-feedback" data-sb-feedback="message:required">กรุณาใส่ข้อความ</div>
-                </div>
-                <div class="d-none" id="submitSuccessMessage" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <div class="text-center mb-3">ส่งข้อความสำเร็จ&nbsp;!</div>
+            <div class="container bg-dark text-dark p-5 py-4">
+                <form action="https://formsubmit.co/htmllibraryth@gmail.com" id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                    <!-- Name Input -->
+                    <div class="text-white mb-3" style="
+                    font-family: sarabun;
+                    user-select: none;">
+                        <label class="form-label" for="name">ชื่อ-นามสกุล&nbsp;</label><span style="color: red;">*</span>
+                      <input class="form-control" id="name" type="text" placeholder="ชื่อ-นามสกุล" data-sb-validations="required" />
+                      <div class="invalid-feedback" data-sb-feedback="name:required">กรุณากรอกชื่อ</div>
                     </div>
-                  <div class="d-none" id="submitErrorMessage" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <div class="text-center text-danger mb-3">มีข้อผิดพลาดไม่สามารถส่งข้อความ&nbsp;!</div>
-                  </div>
-                  <div class="d-grid d-flex justify-content-md-end" style="
-                  font-family: sarabun;
-                  user-select: none;">
-                    <button class="btn btn-info btn-lg" id="submitButton" type="submit">ส่งข้อความ</button>
-                  </div>
-                </form>   
+    
+                    <div class="text-white mb-3" style="
+                    font-family: sarabun;
+                    user-select: none;">
+                      <label class="form-label text-white" for="subject">เรื่อง&nbsp;</label><span style="color: red;">*</span>
+                          <select class="form-select" aria-label="Default select example" id="subject" name="subject">
+                              <option selected>ไม่มีหัวข้อ</option>
+                              <option value="problem">1. ปัญหาเกี่ยวกับการใช้งานเว็บไซต์</option>
+                              <option value="contact">2. ติดต่อสอบถาม</option>
+                              <option value="etc">3. อื่นๆ</option>
+                          </select>
+                    </div>
+
+                    <div class="text-white mb-3" style="
+                    font-family: sarabun;
+                    user-select: none;">
+                        <label class="form-label text-white" for="subject">เรื่อง&nbsp;</label><span style="color: red;">*</span>
+                        <input class="form-control" id="emailAddress" type="email" placeholder="อีเมล" data-sb-validations="required,email" />
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">กรุณากรอกอีเมล</div>
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">อีเมลไม่ถูกต้อง</div>
+                    </div>
+    
+                    <div class="text-white mb-3" style="
+                    font-family: sarabun;
+                    user-select: none;">
+                        <label class="form-label text-white" for="subject">ข้อความ&nbsp;</label><span style="color: red;">*</span>
+                        <textarea class="form-control" id="message" type="text" placeholder="ข้อความ" style="height: 10rem;" data-sb-validations="required"></textarea>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">กรุณาใส่ข้อความ</div>
+                    </div>
+
+                    <div class="d-none" id="submitSuccessMessage" style="
+                    font-family: sarabun;
+                    user-select: none;">
+                      <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">ส่งข้อความสำเร็จ</div>
+                      </div>
+                    </div>
+    
+                    <div class="d-none" id="submitErrorMessage" style="
+                    font-family: sarabun;
+                    user-select: none;">>
+                      <div class="text-center text-danger mb-3">ไม่สามารถส่งข้อความได้</div>
+                    </div>
+
+                    <div class="d-grid d-flex justify-content-md-end" style="
+                    font-family: sarabun;
+                    user-select: none;">
+                      <button class="btn btn-info btn-lg disabled" id="submitButton" type="submit">ส่งข้อความ</button>
+                    </div>
+                  </form>   
               </div>            
         </main>
         <div class="container-fluid p-3" style="
@@ -235,30 +245,5 @@
             </div>
         </footer>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            const form = document.querySelector('#contactForm');
-            function sendMsg(e){
-                e.preventDefault();
-           
-
-            const name = document.querySelector('#name'),
-                  subject = document.querySelector('#subject'),
-                  email = document.querySelector('#email'),
-                  msg = document.querySelector('msg');
-            
-
-            Email.send({
-                SecureToken : "d2bcd417-98ac-45db-80ea-93f7b70a62c6",
-                To : 'htmllibraryth@gmail.com',
-                From : email.value,
-                Subject : subject.value,
-                Body : msg.value
-            }).then(
-            message => alert(message)
-            );
-        }
-        form.addEventListener('submit',sendMsg);
-        </script>
     </body>
 </html>
