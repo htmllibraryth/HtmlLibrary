@@ -15,7 +15,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://kit.fontawesome.com/b873803313.js" crossorigin="anonymous"></script>
-        <title>ติดต่อเรา | เอชทีเอ็มแอลไลบรารี่</title>
+        <title>แบบทดสอบ | เอชทีเอ็มแอลไลบรารี่</title>
         <style>
             *{
                 margin: 0;
@@ -87,17 +87,17 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Exercise.html"><i class="fa-solid fa-book-open"></i> แบบทดสอบ</a>
+                            <a class="nav-link" href="Exercise.html" style="
+                            color : #1BB2B6;">
+                                <i class="fa-solid fa-book-open"></i> 
+                                 แบบทดสอบ
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="CodeEditor.html"><i class="fa-solid fa-code"></i> ทดสอบเขียนโค้ด</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Contact.html" style="
-                            color : #1BB2B6;">
-                                <i class="fa-solid fa-envelope"></i> 
-                                 ติดต่อเรา
-                            </a>
+                            <a class="nav-link" href="Contact.html"><i class="fa-solid fa-envelope"></i> ติดต่อเรา</a>
                         </li>
                     </ul>
                 </div>
@@ -112,93 +112,31 @@
                 <p class="display-6 mt-3 pt-5 d-flex justify-content-md-center" style="
                 font-family: kanit;
                 font-weight: bold;">
-                    <i class="fa-solid fa-envelope"></i> &nbsp;ติดต่อ
+                    <i class="fa-solid fa-book-open"></i> &nbsp;แบบทดสอบ
                     <span style="
                     color: #00b4d8;">
-                        เรา
+                        ของเว็บไซต์
                     </span>
                 </p>
-                <p class="text-center pb-3 text-white" style="
-                font-family: sarabun;
-                font-weight: bold;">ข้อความคุณถูกจะส่งไปอีเมล 
-                    <a class="link-info" href="mailto: htmllibraryth@gmail.com" target="_blank">
-                        htmllibraryth@gmail.com
-                    </a>
-                </p>
+                <div class="container p-2"  style="
+                font-family: sarabun;">
+                    <h4 class="text-white">
+                        <b>บทเรียนที่ 1 เอชทีเอ็มแอลเบื้องต้น</b>
+                    </h4>
+                    <font class="text-white">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	1.1 การสร้างและบันทึกเอกสาร <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	1.2 การแสดงไฟล์เอกสารและการเปิดดูโค้ดภาษาเอชทีเอ็มแอล <br>
+                    </font>
+                </div>
             </div>
         </main>
         <div class="container-fluid p-3" style="
         background-color:#222222;">
         </div>
-        <main class="container-fluid p-5" style="
-        background-color: #383838;">
-            <div class="container bg-dark text-dark p-5 py-4">
-                <form action="https://formsubmit.co/htmllibraryth@gmail.com" method="POST" target="_blank" id="contactForm">
-
-                    <!-- Name Input -->
-                    <div class="text-white mb-3" style="
-                    font-family: sarabun;
-                    user-select: none;">
-                        <label class="form-label text-white h5" for="name">ชื่อ-นามสกุล&nbsp;</label><span style="color: red;">*</span>
-                      <input class="form-control" id="name" name="name" type="text" placeholder="ชื่อ-นามสกุล" data-sb-validations="required" />
-                      <div class="invalid-feedback" data-sb-feedback="name:required">กรุณากรอกชื่อ</div>
-                    </div>
-    
-                    <div class="text-white mb-3" style="
-                    font-family: sarabun;
-                    user-select: none;">
-                      <label class="form-label text-white h5" for="subject">หัวข้อ&nbsp;</label>
-                          <select class="form-select" aria-label="Default select example" id="subject" name="subject">
-                              <option selected>ไม่มีหัวข้อ</option>
-                              <option value="problem">1. ปัญหาเกี่ยวกับการใช้งานเว็บไซต์</option>
-                              <option value="contact">2. ติดต่อสอบถาม</option>
-                              <option value="etc">3. อื่นๆ</option>
-                          </select>
-                    </div>
-
-                    <div class="text-white mb-3" style="
-                    font-family: sarabun;
-                    user-select: none;">
-                        <label class="form-label text-white h5" for="subject">เรื่อง&nbsp;</label><span style="color: red;">*</span>
-                        <input class="form-control" id="emailAddress" name="email" type="email" placeholder="อีเมล">
-                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">กรุณากรอกอีเมล</div>
-                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">อีเมลไม่ถูกต้อง</div>
-                    </div>
-    
-                    <div class="text-white mb-3" style="
-                    font-family: sarabun;
-                    user-select: none;">
-                        <label class="form-label text-white h5" for="subject">ข้อความ&nbsp;</label><span style="color: red;">*</span>
-                        <textarea class="form-control" id="message" name="message" type="text" placeholder="ข้อความ" style="height: 10rem;" data-sb-validations="required"></textarea>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">กรุณาใส่ข้อความ</div>
-                    </div>
-
-                    <div class="d-none" id="submitSuccessMessage" style="
-                    font-family: sarabun;
-                    user-select: none;">
-                      <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">ส่งข้อความสำเร็จ</div>
-                      </div>
-                    </div>
-    
-                    <div class="d-none" id="submitErrorMessage" style="
-                    font-family: sarabun;
-                    user-select: none;">>
-                      <div class="text-center text-danger mb-3">ไม่สามารถส่งข้อความได้</div>
-                    </div>
-
-                    <div class="d-grid d-flex justify-content-md-end" style="
-                    font-family: sarabun;
-                    user-select: none;">
-                      <button class="btn btn-info btn-lg" id="submitButton" type="submit">ส่งข้อความ</button>
-                    </div>
-                  </form>   
-              </div>            
+        <main class="container-fluid p-3 bg-white text-white" style="
+        background-color: #151616;">
+           
         </main>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <div class="container-fluid bg-dark p-3"></div>
         <footer class="text-center text-lg-start text-muted " style="
         background-color:#222222;">
             <div class="container-fluid p-2">
@@ -223,10 +161,10 @@
                             <a href="index.html#lesson" class="text-reset">บทเรียน</a>
                         </p>
                         <p>
-                            <a href="Exercise.html" class="text-reset">แบบทดสอบ</a>
+                            <a href="CodeEditor.html" class="text-reset">ทดสอบเขียนโค้ด</a>
                         </p>
                         <p>
-                            <a href="CodeEditor.html" class="text-reset">ทดสอบเขียนโค้ด</a>
+                            <a href="Contact.html" class="text-reset">ติดต่อเรา</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -244,6 +182,7 @@
                 <a class="text-reset fw-bold" href="index.html">HtmlLibrary.com</a>
             </div>
         </footer>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
