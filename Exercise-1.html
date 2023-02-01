@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,18 +104,18 @@
                 </div>
             </div>
         </navbar>
-        <div class="container-fluid p-3" style="
+        <div class="container-fluid p-3 bg-dark" style="
         background-color:#222222;">
         </div>
-        <main class="container-fluid p-3 bg-dark text-white" style="
-        background-color: #151616;">
+        <main class="container-fluid p-3 bg-dark text-white">
             <div class="container">
                 <p class="display-6 mt-3 pt-5 d-flex justify-content-md-center" style="
                 font-family: kanit;
                 font-weight: bold;">
                     <i class="fa-solid fa-book-open"></i> &nbsp;แบบทดสอบ
                     <span style="
-                    color: #00b4d8;">
+                    color: #00b4d8;
+                    font-family: kanit;">
                         ของเว็บไซต์
                     </span>
                 </p>
@@ -130,13 +131,80 @@
                 </div>
             </div>
         </main>
-        <div class="container-fluid p-3" style="
-        background-color:#222222;">
-        </div>
-        <main class="container-fluid p-3 bg-white text-white" style="
+        <div class="container-fluid p-3 bg-dark" style="
         background-color: #151616;">
-           
+        </div>
+        <main class="container-fluid p-3 text-white" style="
+        background-color: #151616;">
+            <div class="container text-dark" style="
+            background-color: #383838;">
+                <div class="container" id="info_box">
+                    <div id="info-title"><span>กฏในการทำแบบทดสอบ</span></div>
+                    <div id="info-list">
+                        <div id="info">1. แบบทดสอบนี้มีเนื้อหามาจากบทเรียนที่ 1 เอชทีเอ็มแอลเบื้องต้น.</div>
+                        <div id="info">2. มีจำนวนข้อทั้งหมด 10 ข้อ แต่ละข้อจะเป็นคำถามให้เลือกคำตอบที่ถูกต้องที่สุด.</div>
+                        <div id="info">3. เมื่อทำแบบทดสอบเสร็จระบบจะออกคะแนน</div>
+                        <div id="info">ถ้าพร้อมแล้วให้กดที่ปุ่มคำว่า "พร้อม" ถ้ากดแล้วจะไม่สามารถออกจากหน้าทำแบบทดสอบได้ถ้าออกคะแนนจะถูกรีเซ็ททันที</div>
+                    </div>
+                    <div id="buttons">
+                        <button id="quit">กลับ</button>
+                        <button id="restart">พร้อม</button>
+                    </div>
+                </div>
+            
+                <div class="container" id="quiz_box">
+                    <div id="header">
+                        <div id="title">แบบทดสอบ บทเรียนที่ 1 เอชทีเอ็มแอลเบื้องต้น</div>
+                    </div>
+                    <div id="section">
+                        <div id="que_text">
+                            
+                        </div>
+                        <div id="option_list">
+                            
+                        </div>
+                    </div>
+                    <div id="footer">
+                        <div id="total_que">
+                            
+                        </div>
+                        <button id="next_btn">ข้อต่อไป</button>
+                    </div>
+                </div>
+            
+                <div id="result_box">
+                    <div id="icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div id="complete_text">ทำแบบทดสอบเสร็จแล้ว</div>
+                    <div id="score_text">
+                        
+                    </div>
+                    <div id="buttons">
+                        <button id="restart">ทำอีกครั้ง</button>
+                        <button id="quit">ออก</button>
+                    </div>
+                </div>
+            </div>   
         </main>
+        <div class="container-fluid p-5" style="
+        background-color: #383838;"></div>
+        <div class="container-fluid p-5" style="
+        background-color: #383838;"></div>
+        <div class="container-fluid p-5" style="
+        background-color: #383838;"></div>
+        <div class="container-fluid p-5" style="
+        background-color: #383838;"></div>
+        <div class="container-fluid p-5" style="
+        background-color: #383838;"></div>
+        <div class="container-fluid p-4" style="
+        background-color: #383838;"></div>
+        <div class="container-fluid p-3" style="
+        background-color: #151616;">
+        </div>
+        <div class="container-fluid p-3 bg-dark" style="
+        background-color: #151616;">
+        </div>
         <footer class="text-center text-lg-start text-muted " style="
         background-color:#222222;">
             <div class="container-fluid p-2">
@@ -182,7 +250,7 @@
                 <a class="text-reset fw-bold" href="index.html">HtmlLibrary.com</a>
             </div>
         </footer>
-        <script src="questions.js"></script>
+        <script src="questions-1.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
