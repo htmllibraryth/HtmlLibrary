@@ -15,7 +15,7 @@
 #quiz_box,
 #result_box{
     position: absolute;
-    top: 70ch;
+    top: auto;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
