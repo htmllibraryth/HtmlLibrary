@@ -23,7 +23,7 @@ let questions = [
   },
     {
     numb: 3,
-    question: "คุณลักษณะ(Attributes)ที่จะใส่ความสูงให้รูปภาพ",
+    question: "คุณลักษณะ(Attributes)ที่จะใส่ความกว้างให้รูปภาพ",
     answer: "WIDTH=",
     options: [
       "WIDTH=",
@@ -90,7 +90,7 @@ let questions = [
   {
     numb: 9,
     question: "คำสั่งใดเป็นคำใส่ในการแทรกเพลงบนเว็บไซต์",
-    answer: "BGSOUND SRC",
+    answer: "BGSOUND SRC=",
     options: [
       "HREF=",
       "๊IMG SRC=",
