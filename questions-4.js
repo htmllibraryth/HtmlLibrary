@@ -1,112 +1,112 @@
 let questions = [
     {
     numb: 1,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คำสั่งในทีจะใส่รูปภาพลงไป",
+    answer: "IMG SRC=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "PHOTO SRC=",
+      "PIC SRC=",
+      "HREF=",
+      "IMG SRC="
     ]
   },
     {
     numb: 2,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "คุณลักษณะ(Attributes)ที่จะใส่กรอบให้รูปภาพ",
+    answer: "BORDER=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BORDER=",
+      "LINE=",
+      "STOKE=",
+      "FRAME="
     ]
   },
     {
     numb: 3,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "คุณลักษณะ(Attributes)ที่จะใส่ความสูงให้รูปภาพ",
+    answer: "WIDTH=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "WIDTH=",
+      "HIGHT=",
+      "ALT=",
+      "ALIGN="
     ]
   },
     {
     numb: 4,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "คุณลักษณะ(Attributes)ที่จะใส่ความสูงให้รูปภาพ",
+    answer: "HIGHT=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "WIDTH=",
+      "HIGHT=",
+      "ALT=",
+      "ALIGN="
     ]
   },
     {
     numb: 5,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คุณลักษณะ(Attributes)ที่จะใส่คำอธิบายรูปภาพ",
+    answer: "ALT=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "WIDTH=",
+      "HIGHT=",
+      "ALT=",
+      "ALIGN="
     ]
   },
   {
     numb: 6,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "คุณลักษณะ(Attributes)ที่จะกำหนดตำแหน่งรูปภาพ",
+    answer: "ALIGN=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "WIDTH=",
+      "HIGHT=",
+      "ALT=",
+      "ALIGN="
     ]
   },
     {
     numb: 7,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "คุณลักษณะ(Attributes)ที่จะกำหนดระยะห่างจากรูปภาพในแนวนอน",
+    answer: "HSPACE=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BORDER=",
+      "HSPACE=",
+      "MARGIN=",
+      "VSPACE="
     ]
   },
     {
     numb: 8,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "คุณลักษณะ(Attributes)ที่จะกำหนดระยะห่างจากรูปภาพในแนวนอน",
+    answer: "VSPACE=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BORDER=",
+      "HSPACE=",
+      "MARGIN=",
+      "VSPACE="
     ]
   },
   {
     numb: 9,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คำสั่งใดเป็นคำใส่ในการแทรกเพลงบนเว็บไซต์",
+    answer: "BGSOUND SRC",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "HREF=",
+      "๊IMG SRC=",
+      "BGSOUND SRC=",
+      "LINK="
     ]
   },
     {
     numb: 10,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "คุณลักษณะ(Attributes)ที่จะกำหนดให้เพลงเล่นวนซ้ำๆ",
+    answer: "LOOP='Infinite'",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "LOOP='Infinite'",
+      "Infinite",
+      "LOOP",
+      "ไม่มีข้อถูก"
     ]
   },
 ];

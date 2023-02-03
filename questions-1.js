@@ -1,112 +1,112 @@
 let questions = [
     {
     numb: 1,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "HTML ย่อมาจากอะไร ?",
+    answer: "HyperText Markup Language",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "HyperText Markup Language",
+      "HyperTest Makeup Language",
+      "HyperText Markup Landscape",
+      "HyperTest Makeup Landscape"
     ]
   },
     {
     numb: 2,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "การเขียนหรือการใช้รูปแบบคำสั่งควรใส่ไว้ในระหว่างอะไร ?",
+    answer: "แท็ก(Tag)",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "เซมิโคลอน (Semicolon)",
+      "แท็ก(Tag)",
+      "ซินเท็ก(Syntax)",
+      "อัญประกาศ(Quotation Marks)"
     ]
   },
     {
     numb: 3,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "รูปแบบคำสั่งที่อยู่ในแท็กแบ่งได้เป็นกี่ลักษณะ ?",
+    answer: "2 ลักษณะ แท็กเดี่ยว และแท็กปิด",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "มีลักษณะเดียวคือ แท็กเดี่ยว",
+      "2 ลักษณะ แท็กเดี่ยว และแท็กปิด",
+      "3 ลักษณะ แท็กเดี่ยว แท็กปิด และไม่ใส่แท็ก",
+      "ไม่มีข้อถูก"
     ]
   },
     {
     numb: 4,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "นามสกุลของ HTML Document คือนามสกุลอะไร ?",
+    answer: ".html",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      ".html",
+      ".txt",
+      ".exe",
+      "นามสกุลไฟล์คืออยู่ที่เรากำหนด"
     ]
   },
     {
     numb: 5,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "แท็ก &lt;titl&gt;...&lt;/title&gt; มีไว้ใช้ทำอะไร ?",
+    answer: "ใช้ในการบอกชื่อเรื่องของหน้าเว็บนั้นๆ",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "เป็นแท็กใช้กำหนดปัญหา",
+      "ใช้กำหนดหัวข้อ",
+      "ใช้ในการบอกชื่อเรื่องของหน้าเว็บนั้นๆ",
+      "ไม่มีข้อถูก"
     ]
   },
   {
-    numb: 6,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    numb: 6, 
+    question: "HTML สามารถใช้โปรแกรมใดในนี้เขียนได้",
+    answer: "ทุกข้อที่กล่าว",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Notepad",
+      "Editplus",
+      "Visual Studio Code",
+      "ทุกข้อที่กล่าว"
     ]
   },
     {
     numb: 7,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "คุณลักษณะ(Attributes) มีหน้าที่อะไร ?",
+    answer: "เป็นส่วนขยายความสามารถของแท็ก",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "เป็นส่วนขยายความสามารถของแท็ก",
+      "เป็นการมาร์กข้อความไว้",
+      "เป็นการคอมเมนต์ข้อความไว้",
+      "เป็นการจัดระเบียบแท็ก"
     ]
   },
     {
     numb: 8,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "คำสั่งใดเป็นคำสั่ง คุณลักษณะ(Attributes)",
+    answer: "WIDTH",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "IMG",
+      "FORM",
+      "WIDTH",
+      "TABLE"
     ]
   },
   {
     numb: 9,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คำสั่งใดเป็นคำสั่งเป็นคำสั่ง 'แท็กแบบเดี่ยว'",
+    answer: "HR",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "HR",
+      "FONT",
+      "P",
+      "B"
     ]
   },
     {
     numb: 10,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "ข้อใด'ไม่ใช่'คำสั่งองค์ประกอบ(Elements)ของภาษา HTML",
+    answer: "FOOTER",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "HTML",
+      "HEAD",
+      "BODY",
+      "FOOTER"
     ]
   },
 ];

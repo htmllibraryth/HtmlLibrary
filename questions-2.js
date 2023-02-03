@@ -1,112 +1,112 @@
 let questions = [
     {
     numb: 1,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "ถ้าต้องการเว้นวรรคจะต้องใช้คำสั่งอะไร ?",
+    answer: "& nbsp;",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "& _;",
+      "& nbsp;",
+      "& space;",
+      "& jump;"
     ]
   },
     {
     numb: 2,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "คำสั่งใดเอาไว้ขึ้นบรรทัดใหม่ เพื่อให้ข้อความขึ้นบรรทัดใหม่",
+    answer: "BR",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BR",
+      "HR",
+      "B",
+      "FONT"
     ]
   },
     {
     numb: 3,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "แท็ก &lt;FONT&gt; เป็นคำสั่งอะไร",
+    answer: "ถูกทุกข้อ",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "เป็นคำสั่งกำหนดขนาดฟอนต์",
+      "เป็นคำสั่งเปลี่ยนสีฟอนต์",
+      "เป็นคำสั่งจัดรูปแบบตัวอักษร",
+      "ถูกทุกข้อ"
     ]
   },
     {
     numb: 4,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "แท็กอะไรใช้ให้ตัวอักษรเป็นตัวหนา",
+    answer: "B",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "B",
+      "P",
+      "I",
+      "U"
     ]
   },
     {
     numb: 5,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "แท็กอะไรใช้ให้ตัวอักษรเป็นตัวเอียง",
+    answer: "I",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "B",
+      "P",
+      "I",
+      "U"
     ]
   },
   {
     numb: 6,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "แท็กอะไรใช้ให้ตัวอักษรมีขีดเส้นใต้",
+    answer: "U",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "B",
+      "P",
+      "I",
+      "U"
     ]
   },
     {
     numb: 7,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "คำสั่งที่ใช้กำหนดตัวอักษรเป็นหัวเรื่องมียันกี่ขนาด",
+    answer: "H1 - H7",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "H1 - H5",
+      "H1 - H4",
+      "H1 - H6",
+      "H1 - H7"
     ]
   },
     {
     numb: 8,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "&lt;P ALIGN=...&gt; ต้องใช้อะไรให้ข้อความอยู่ตรงกลาง",
+    answer: "CENTER",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "NORMAL",
+      "MEDIUM",
+      "CENTER",
+      "MIDDLE"
     ]
   },
   {
     numb: 9,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คำสั่งใดทำให้ตัวอักษรวิ่ง",
+    answer: "MARQUEE",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "MARQUEE",
+      "RUN",
+      "PLAY",
+      "FONT"
     ]
   },
     {
     numb: 10,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "อะไร'ไม่ใช่'คุณลักษณะ(Attributes)ของคำสั่ง &lt;FONT&gt;",
+    answer: "WIDTH",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "SIZE",
+      "WIDTH",
+      "COLOR",
+      "ALIGN"
     ]
   },
 ];
