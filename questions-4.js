@@ -78,7 +78,7 @@ let questions = [
   },
     {
     numb: 8,
-    question: "คุณลักษณะ(Attributes)ที่จะกำหนดระยะห่างจากรูปภาพในแนวนอน",
+    question: "คุณลักษณะ(Attributes)ที่จะกำหนดระยะห่างจากรูปภาพในแนวตั้ง",
     answer: "VSPACE=",
     options: [
       "BORDER=",
