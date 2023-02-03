@@ -93,7 +93,7 @@ let questions = [
     answer: "BGSOUND SRC=",
     options: [
       "HREF=",
-      "๊IMG SRC=",
+      "IMG SRC=",
       "BGSOUND SRC=",
       "LINK="
     ]
