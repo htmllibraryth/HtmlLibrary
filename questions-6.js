@@ -56,24 +56,24 @@ let questions = [
   },
   {
     numb: 6,
-    question: "",
-    answer: "2",
+    question: "คำสั่งใดต่อไปนี้คือการเชื่อมโยงไปยังอีเมล",
+    answer: "MAILTO:",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "EMAILTO:",
+      "GMAILTO:",
+      "HOTMAILTO:",
+      "MAILTO:"
     ]
   },
     {
     numb: 7,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "คำสั่งใดคือการให้การเชื่อมโยงขึ้นแท็บใหม่",
+    answer: "_BLANK",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "_NEW",
+      "_BLANK",
+      "_CRATE",
+      "_TAB"
     ]
   },
     {
