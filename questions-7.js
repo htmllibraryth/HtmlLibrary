@@ -2,7 +2,7 @@ let questions = [
     {
     numb: 1,
     question: "ในบทเรียนนี้กล่าวถึงการสร้างฟอร์มไว้กี่ชนิด",
-    answer: "1",
+    answer: "6 ชนิด",
     options: [
       "6 ชนิด",
       "5 ชนิด",
@@ -13,7 +13,7 @@ let questions = [
     {
     numb: 2,
     question: "Text Box ใช้ในการรับข้อมูลประเภทใด",
-    answer: "1",
+    answer: "ข้อความ",
     options: [
       "ข้อความ",
       "รูปภาพ",
@@ -24,7 +24,7 @@ let questions = [
     {
     numb: 3,
     question: "MAXLENGHT คืออะไร",
-    answer: "3",
+    answer: "จำนวนตัวอักษรสูงสุดที่บันทึกได้",
     options: [
       "จำนวนตัวอักษรที่บันทึกได้",
       "จำนวนตัวอักษรต่ำสุดที่บันทึกได้",
@@ -35,7 +35,7 @@ let questions = [
     {
     numb: 4,
     question: "VALUE คืออะไร",
-    answer: "4",
+    answer: "ถูกทุกข้อ",
     options: [
       "ค่าเริ่มต้น",
       "ขนาด",
