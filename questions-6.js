@@ -24,7 +24,7 @@ let questions = [
     {
     numb: 3,
     question: "แท็กใดคือคำสั่งการเชื่อมโยง",
-    answer: "3",
+    answer: "A",
     options: [
       "U",
       "P",
@@ -34,29 +34,29 @@ let questions = [
   },
     {
     numb: 4,
-    question: "คำตอบคือ 4",
-    answer: "4",
+    question: "ลักษณะของแท็กเชื่อมโยงเป็นลักษณะแบบใด",
+    answer: "ลักษณะแท็กเปิดแท็กปิด",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "ลักษณะแท็กเดี่ยว",
+      "ลักษณะแท็กเปิดแท็กปิด",
+      "ถูกทั้งข้อที่ 1 และ ข้อที่ 2",
+      "ไม่มีข้อถูก"
     ]
   },
     {
     numb: 5,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คำสั่งกำหนดที่อยู่เชื่อมโยงคือข้อใด",
+    answer: "HREF=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "HREF=",
+      "ADRESS=",
+      "TO=",
+      "WHERE="
     ]
   },
   {
     numb: 6,
-    question: "คำตอบคือ 2",
+    question: "",
     answer: "2",
     options: [
       "1",
