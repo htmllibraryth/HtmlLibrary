@@ -56,57 +56,57 @@ let questions = [
   },
   {
     numb: 6,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "คำสั่งใดเป็นคำสั่งกำหนดความหนาของตาราง",
+    answer: "BORDER=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BORDER=",
+      "HIGTH=",
+      "WIDTH=",
+      "ไม่มีข้อถูก"
     ]
   },
     {
     numb: 7,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "คำสั่งใดเป็นคำสั่งกำหนดความกว้าง",
+    answer: "WIDTH=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BORDER=",
+      "HIGTH=",
+      "WIDTH=",
+      "ไม่มีข้อถูก"
     ]
   },
     {
     numb: 8,
     question: "คำตอบคือ 4",
-    answer: "4",
+    answer: "HIGTH=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BORDER=",
+      "HIGTH=",
+      "WIDTH=",
+      "ไม่มีข้อถูก"
     ]
   },
   {
     numb: 9,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "คำสั่งใดเป็นคำสั่งกำหนดสีเส้นตาราง,
+    answer: "BORDERCOLOR=",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "BGCOLOR",
+      "COLOR",
+      "TONE",
+      "BORDERCOLOR"
     ]
   },
     {
     numb: 10,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "ข้อใดคือประโยชน์ของตาราง",
+    answer: "ทุกข้อที่กล่าว",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "จัดเรียงข้อมูล",
+      "จัดเรียงภาพ",
+      "จัดเรียงโครงเว็บไซต์",
+      "ทุกข้อที่กล่าว"
     ]
   },
 ];
