@@ -1,7 +1,7 @@
 let questions = [
     {
     numb: 1,
-    question: "HTML ย่อมาจากอะไร ?",
+    question: "HTML ย่อมาจากอะไร?",
     answer: "HyperText Markup Language",
     options: [
       "HyperText Markup Language",
@@ -12,7 +12,7 @@ let questions = [
   },
     {
     numb: 2,
-    question: "การเขียนหรือการใช้รูปแบบคำสั่งควรใส่ไว้ในระหว่างอะไร ?",
+    question: "การเขียนหรือการใช้รูปแบบคำสั่งควรใส่ไว้ในระหว่างเครื่องหมายใด?",
     answer: "แท็ก(Tag)",
     options: [
       "เซมิโคลอน (Semicolon)",
@@ -23,7 +23,7 @@ let questions = [
   },
     {
     numb: 3,
-    question: "รูปแบบคำสั่งที่อยู่ในแท็กแบ่งได้เป็นกี่ลักษณะ ?",
+    question: "รูปแบบคำสั่งที่อยู่ในแท็กแบ่งได้เป็นกี่ลักษณะ?",
     answer: "2 ลักษณะ แท็กเดี่ยว และแท็กปิด",
     options: [
       "มีลักษณะเดียวคือ แท็กเดี่ยว",
@@ -34,7 +34,7 @@ let questions = [
   },
     {
     numb: 4,
-    question: "นามสกุลของ HTML Document คือนามสกุลอะไร ?",
+    question: "นามสกุลของ HTML Document คือนามสกุลอะไร?",
     answer: ".html",
     options: [
       ".html",
@@ -45,7 +45,7 @@ let questions = [
   },
     {
     numb: 5,
-    question: "แท็ก &lt;titl&gt;...&lt;/title&gt; มีไว้ใช้ทำอะไร ?",
+    question: "แท็ก &lt;titl&gt;...&lt;/title&gt; ใช้ทำอะไร?",
     answer: "ใช้ในการบอกชื่อเรื่องของหน้าเว็บนั้นๆ",
     options: [
       "เป็นแท็กใช้กำหนดปัญหา",
@@ -56,7 +56,7 @@ let questions = [
   },
   {
     numb: 6, 
-    question: "HTML สามารถใช้โปรแกรมใดในนี้เขียนได้",
+    question: "HTML สามารถใช้โปรแกรมใดต่อไปนี้เขียนได้",
     answer: "ทุกข้อที่กล่าว",
     options: [
       "Notepad",
@@ -67,7 +67,7 @@ let questions = [
   },
     {
     numb: 7,
-    question: "คุณลักษณะ(Attributes) มีหน้าที่อะไร ?",
+    question: "คุณลักษณะ(Attributes) มีหน้าที่อะไร?",
     answer: "เป็นส่วนขยายความสามารถของแท็ก",
     options: [
       "เป็นส่วนขยายความสามารถของแท็ก",
