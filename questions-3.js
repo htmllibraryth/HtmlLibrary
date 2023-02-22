@@ -1,7 +1,7 @@
 let questions = [
     {
     numb: 1,
-    question: "การสร้าง List แบ่งเป็นกี่ประเภท ?",
+    question: "การสร้าง List แบ่งเป็นกี่ประเภท?",
     answer: "7 ประเภท",
     options: [
       "4 ประเภท",
