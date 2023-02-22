@@ -34,7 +34,7 @@ let questions = [
   },
     {
     numb: 4,
-    question: "การใช้ CSS รูปแบบใดแทรกในลิงค์",
+    question: "การใช้ CSS รูปแบบใดแทรกในคำสั่ง",
     answer: "Inline",
     options: [
       "Inline",
@@ -45,35 +45,35 @@ let questions = [
   },
     {
     numb: 5,
-    question: "คำตอบคือ 1",
-    answer: "1",
+    question: "การใช้ CSS รูปแบบใดสร้าง Document",
+    answer: "External",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Inline",
+      "Embed",
+      "Externl",
+      "ไม่มีรูปแบบดังกล่าว"
     ]
   },
   {
     numb: 6,
-    question: "คำตอบคือ 2",
-    answer: "2",
+    question: "การใช้ CSS รูปแบบใดแทรกในHead",
+    answer: "Embed",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "Inline",
+      "Embed",
+      "Externl",
+      "ไม่มีรูปแบบดังกล่าว"
     ]
   },
     {
     numb: 7,
-    question: "คำตอบคือ 3",
-    answer: "3",
+    question: "นามสกุลไฟล์ Document ของ CSS คืออะไร",
+    answer: "css",
     options: [
-      "1",
-      "2",
-      "3",
-      "4"
+      "php",
+      "txt",
+      "html",
+      "css"
     ]
   },
     {
